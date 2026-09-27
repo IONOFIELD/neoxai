@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T09:31:26.366Z",
+  "generatedAt": "2026-09-27T10:12:27.481Z",
   "sources": [
     {
       "id": "huggingface",
@@ -409,7 +409,7 @@
         "motor-imagery"
       ],
       "license": "odc-by",
-      "downloads": 13225,
+      "downloads": 13397,
       "likes": 0,
       "updatedAt": "2026-09-03T12:21:18.000Z",
       "modality": [
@@ -425,7 +425,7 @@
       "description": "AVMoments-EEG is a large-scale, high-temporal-resolution human electroencephalography (EEG) dataset designed to characterize neural responses to naturalistic audiovisual events. The dataset comprises data from 10 healthy adult participants who freely viewed three-second naturali…",
       "tags": [],
       "license": "cc-by-4.0",
-      "downloads": 3985,
+      "downloads": 3987,
       "likes": null,
       "updatedAt": "2026-09-04T00:00:00.000Z",
       "modality": [
@@ -448,7 +448,7 @@
         "brain-computer-interface"
       ],
       "license": "cc-by-4.0",
-      "downloads": 699,
+      "downloads": 730,
       "likes": 0,
       "updatedAt": "2026-09-23T13:56:52.000Z",
       "modality": [
@@ -461,7 +461,7 @@
       "owner": "Twu31",
       "url": "https://huggingface.co/datasets/Twu31/bci-report",
       "source": "huggingface",
-      "description": "BCI Report Every EEG decoding score, reported with the protocol that produced it. Website · 中文 · Code · Data use & privacy 121 reviewed measurements from public EEG datasets, each carrying the cohort, electrode count, evaluation mode, chance level and training budget that produc…",
+      "description": "BCI Report Every EEG decoding score, reported with the protocol that produced it. Website · 中文 · Code · Data use & privacy · Every dataset · Every method · Data API 121 reviewed measurements from public EEG datasets, each carrying the cohort, electrode count, evaluation mode, ch…",
       "tags": [
         "cc-by-4.0",
         "csv",
@@ -473,9 +473,9 @@
         "neurotechnology"
       ],
       "license": "cc-by-4.0",
-      "downloads": 181,
+      "downloads": 184,
       "likes": 0,
-      "updatedAt": "2026-09-23T03:11:39.000Z",
+      "updatedAt": "2026-09-27T09:58:23.000Z",
       "modality": [
         "EEG"
       ]
@@ -498,7 +498,7 @@
         "desktop-application"
       ],
       "license": "mit",
-      "downloads": 213,
+      "downloads": 216,
       "likes": 0,
       "updatedAt": "2026-09-09T17:57:01.000Z",
       "modality": [
@@ -516,50 +516,9 @@
         "afl-3.0"
       ],
       "license": "afl-3.0",
-      "downloads": 125,
+      "downloads": 127,
       "likes": 1,
       "updatedAt": "2026-09-18T07:58:35.000Z",
-      "modality": [
-        "EEG"
-      ]
-    },
-    {
-      "id": "hf:windwerfer/neurofeed-eeg-windows",
-      "name": "neurofeed-eeg-windows",
-      "owner": "windwerfer",
-      "url": "https://huggingface.co/datasets/windwerfer/neurofeed-eeg-windows",
-      "source": "huggingface",
-      "description": "Neurofeed EEG Windows Derived 2-second @ 256 Hz EEG windows for training and evaluating Muse- and Crown-oriented models. This is not raw clinical EEG, and it is not a mirror of OpenNeuro or PhysioNet recordings. Repo: windwerfer/neurofeed-eeg-windows What you get Each config fol…",
-      "tags": [
-        "eeg",
-        "muse",
-        "neurosity-crown",
-        "bci",
-        "time-series",
-        "sleep",
-        "attention",
-        "engagement"
-      ],
-      "license": "other",
-      "downloads": 76,
-      "likes": 0,
-      "updatedAt": "2026-09-23T12:41:59.000Z",
-      "modality": [
-        "EEG"
-      ]
-    },
-    {
-      "id": "hf:corquaerit/things-eeg-spikes-RC",
-      "name": "things-eeg-spikes-RC",
-      "owner": "corquaerit",
-      "url": "https://huggingface.co/datasets/corquaerit/things-eeg-spikes-RC",
-      "source": "huggingface",
-      "description": "This dataset is spike encoded data of the THINGS EEG. This data is rate coded (Rate coding uses input features to determine spiking frequency). The num of steps is 100. The image resolution was reduced from 224 to 128 and features standardized. To reconstruct the images run the…",
-      "tags": [],
-      "license": null,
-      "downloads": 290,
-      "likes": 0,
-      "updatedAt": "2026-08-12T23:42:53.000Z",
       "modality": [
         "EEG"
       ]
@@ -581,9 +540,25 @@
         "bciciv-2a"
       ],
       "license": "other",
-      "downloads": 29,
+      "downloads": 101,
       "likes": 0,
       "updatedAt": "2026-09-24T06:21:41.000Z",
+      "modality": [
+        "EEG"
+      ]
+    },
+    {
+      "id": "hf:corquaerit/things-eeg-spikes-RC",
+      "name": "things-eeg-spikes-RC",
+      "owner": "corquaerit",
+      "url": "https://huggingface.co/datasets/corquaerit/things-eeg-spikes-RC",
+      "source": "huggingface",
+      "description": "This dataset is spike encoded data of the THINGS EEG. This data is rate coded (Rate coding uses input features to determine spiking frequency). The num of steps is 100. The image resolution was reduced from 224 to 128 and features standardized. To reconstruct the images run the…",
+      "tags": [],
+      "license": null,
+      "downloads": 325,
+      "likes": 0,
+      "updatedAt": "2026-08-12T23:42:53.000Z",
       "modality": [
         "EEG"
       ]
@@ -606,9 +581,34 @@
         "bci-competition"
       ],
       "license": "cc-by-nd-4.0",
-      "downloads": 19,
+      "downloads": 89,
       "likes": 0,
       "updatedAt": "2026-09-24T11:39:18.000Z",
+      "modality": [
+        "EEG"
+      ]
+    },
+    {
+      "id": "hf:windwerfer/neurofeed-eeg-windows",
+      "name": "neurofeed-eeg-windows",
+      "owner": "windwerfer",
+      "url": "https://huggingface.co/datasets/windwerfer/neurofeed-eeg-windows",
+      "source": "huggingface",
+      "description": "Neurofeed EEG Windows Derived 2-second @ 256 Hz EEG windows for training and evaluating Muse- and Crown-oriented models. This is not raw clinical EEG, and it is not a mirror of OpenNeuro or PhysioNet recordings. Repo: windwerfer/neurofeed-eeg-windows What you get Each config fol…",
+      "tags": [
+        "eeg",
+        "muse",
+        "neurosity-crown",
+        "bci",
+        "time-series",
+        "sleep",
+        "attention",
+        "engagement"
+      ],
+      "license": "other",
+      "downloads": 90,
+      "likes": 0,
+      "updatedAt": "2026-09-23T12:41:59.000Z",
       "modality": [
         "EEG"
       ]
@@ -630,34 +630,9 @@
         "benchmark"
       ],
       "license": "cc-by-4.0",
-      "downloads": 0,
+      "downloads": 38,
       "likes": 0,
       "updatedAt": "2026-09-26T08:47:25.000Z",
-      "modality": [
-        "EEG"
-      ]
-    },
-    {
-      "id": "hf:Twu31/cap32-mi-eeg",
-      "name": "cap32-mi-eeg",
-      "owner": "Twu31",
-      "url": "https://huggingface.co/datasets/Twu31/cap32-mi-eeg",
-      "source": "huggingface",
-      "description": "cap32 — 32-channel dry-electrode motor imagery EEG One subject, one low-cost 32-channel dry-electrode cap (TI ADS1299, 250 Hz, WiFi/UDP). Motor imagery and cognitive-task sessions, plus a set of calibrator recordings used to characterise the amplifier. Code, analysis and reports…",
-      "tags": [
-        "time-series-forecasting",
-        "cc-by-4.0",
-        "document",
-        "eeg",
-        "motor-imagery",
-        "brain-computer-interface",
-        "bci",
-        "dry-electrode"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 131,
-      "likes": 0,
-      "updatedAt": "2026-08-20T05:45:54.000Z",
       "modality": [
         "EEG"
       ]
@@ -680,9 +655,34 @@
         "doi:10.57967/hf/8132"
       ],
       "license": "cc-by-4.0",
-      "downloads": 744,
+      "downloads": 761,
       "likes": 0,
       "updatedAt": "2026-04-28T14:57:22.000Z",
+      "modality": [
+        "EEG"
+      ]
+    },
+    {
+      "id": "hf:Twu31/cap32-mi-eeg",
+      "name": "cap32-mi-eeg",
+      "owner": "Twu31",
+      "url": "https://huggingface.co/datasets/Twu31/cap32-mi-eeg",
+      "source": "huggingface",
+      "description": "cap32 — 32-channel dry-electrode motor imagery EEG One subject, one low-cost 32-channel dry-electrode cap (TI ADS1299, 250 Hz, WiFi/UDP). Motor imagery and cognitive-task sessions, plus a set of calibrator recordings used to characterise the amplifier. Code, analysis and reports…",
+      "tags": [
+        "time-series-forecasting",
+        "cc-by-4.0",
+        "document",
+        "eeg",
+        "motor-imagery",
+        "brain-computer-interface",
+        "bci",
+        "dry-electrode"
+      ],
+      "license": "cc-by-4.0",
+      "downloads": 133,
+      "likes": 0,
+      "updatedAt": "2026-08-20T05:45:54.000Z",
       "modality": [
         "EEG"
       ]
@@ -701,9 +701,33 @@
         "time-series"
       ],
       "license": null,
-      "downloads": 42,
+      "downloads": 43,
       "likes": 0,
       "updatedAt": "2026-09-04T06:07:40.000Z",
+      "modality": [
+        "EEG"
+      ]
+    },
+    {
+      "id": "hf:Fudan-fMRI/EEG-Graspbot",
+      "name": "EEG-Graspbot",
+      "owner": "Fudan-fMRI",
+      "url": "https://huggingface.co/datasets/Fudan-fMRI/EEG-Graspbot",
+      "source": "huggingface",
+      "description": "EEG-Graspbot Dataset This dataset contains the offline EEG data for EEG-Graspbot. The dataset includes five anonymized participants, labeled from sub00 to sub04. Each participant has two task types: VI: visual imagery MI: motor imagery Data Organization raw-data/: anonymized raw…",
+      "tags": [
+        "arxiv:2603.03181",
+        "eeg",
+        "brain-computer-interface",
+        "motor-imagery",
+        "visual-imagery",
+        "robotics",
+        "grasping"
+      ],
+      "license": null,
+      "downloads": 378,
+      "likes": 0,
+      "updatedAt": "2026-07-02T19:11:11.000Z",
       "modality": [
         "EEG"
       ]
@@ -725,7 +749,7 @@
         "phase-classification"
       ],
       "license": "cc-by-4.0",
-      "downloads": 77,
+      "downloads": 52,
       "likes": 0,
       "updatedAt": "2026-08-27T14:48:02.000Z",
       "modality": [
@@ -755,30 +779,6 @@
       ]
     },
     {
-      "id": "hf:Fudan-fMRI/EEG-Graspbot",
-      "name": "EEG-Graspbot",
-      "owner": "Fudan-fMRI",
-      "url": "https://huggingface.co/datasets/Fudan-fMRI/EEG-Graspbot",
-      "source": "huggingface",
-      "description": "EEG-Graspbot Dataset This dataset contains the offline EEG data for EEG-Graspbot. The dataset includes five anonymized participants, labeled from sub00 to sub04. Each participant has two task types: VI: visual imagery MI: motor imagery Data Organization raw-data/: anonymized raw…",
-      "tags": [
-        "arxiv:2603.03181",
-        "eeg",
-        "brain-computer-interface",
-        "motor-imagery",
-        "visual-imagery",
-        "robotics",
-        "grasping"
-      ],
-      "license": null,
-      "downloads": 325,
-      "likes": 0,
-      "updatedAt": "2026-07-02T19:11:11.000Z",
-      "modality": [
-        "EEG"
-      ]
-    },
-    {
       "id": "hf:Yvhang009/eeg-fmri-natview-derived",
       "name": "eeg-fmri-natview-derived",
       "owner": "Yvhang009",
@@ -793,7 +793,7 @@
         "bids"
       ],
       "license": "cc-by-4.0",
-      "downloads": 8,
+      "downloads": 9,
       "likes": 0,
       "updatedAt": "2026-08-21T18:41:24.000Z",
       "modality": [
@@ -809,9 +809,25 @@
       "description": "This record documents a pilot randomized controlled trial investigating whether combining real-time EEG neurofeedback with normobaric hypoxia can improve post-exercise neuromuscular recovery in elite male judokas from the Polish National Judo Senior Team. &nbsp; Eight internatio…",
       "tags": [],
       "license": "cc-by-4.0",
-      "downloads": 135,
+      "downloads": 146,
       "likes": null,
       "updatedAt": "2026-09-20T00:00:00.000Z",
+      "modality": [
+        "EEG"
+      ]
+    },
+    {
+      "id": "zenodo:22990207",
+      "name": "BOLALARDA EPILEPSIYASINING KLINIK VA ELEKTROENSEFALOGRAFIK XUSUSIYATLARI",
+      "owner": "Islomova Nigoraxon Shuxrat qizi",
+      "url": "https://doi.org/10.5281/zenodo.22990207",
+      "source": "zenodo",
+      "description": "O&lsquo;zbekistonning Farg&lsquo;ona shahrida o&lsquo;tkazilgan ushbu holat-nazorat tadqiqotida epilepsiya bilan og&lsquo;rigan 36 nafar bola va 32 nafar sog&lsquo;lom nazorat guruhidagi bolalarning klinik, perinatal, oilaviy hamda elektroensefalografik (EEG) xususiyatlari taqqo…",
+      "tags": [],
+      "license": "cc-by-4.0",
+      "downloads": 0,
+      "likes": null,
+      "updatedAt": "2026-09-27T00:00:00.000Z",
       "modality": [
         "EEG"
       ]
@@ -842,6 +858,27 @@
       ]
     },
     {
+      "id": "zenodo:22974624",
+      "name": "The Corpus of Heard and Imagined Natural Speech (CHINS)",
+      "owner": "Wellington, Scott",
+      "url": "https://doi.org/10.5281/zenodo.22974624",
+      "source": "zenodo",
+      "description": "Overview The Corpus of Heard and Imagined Natural Speech (CHINS) is a single-participant electroencephalography (EEG) corpus comprising over 22 hours of time-aligned natural speech data, with approximately 11 hours of heard speech and 11 hours of imagined speech. The corpus was…",
+      "tags": [
+        "EEG",
+        "Speech",
+        "Imagined Speech",
+        "BCI"
+      ],
+      "license": "cc-by-nc-nd-4.0",
+      "downloads": 0,
+      "likes": null,
+      "updatedAt": "2026-09-26T00:00:00.000Z",
+      "modality": [
+        "EEG"
+      ]
+    },
+    {
       "id": "zenodo:22949772",
       "name": "clinicalEEG_restingState",
       "owner": "Miyakoshi, Makoto",
@@ -852,7 +889,7 @@
         "EEG"
       ],
       "license": "cc-by-4.0",
-      "downloads": 4,
+      "downloads": 5,
       "likes": null,
       "updatedAt": "2026-09-25T00:00:00.000Z",
       "modality": [
@@ -933,46 +970,6 @@
       ]
     },
     {
-      "id": "zenodo:22848294",
-      "name": "Result files for \"Annealed Search over Directed-Acyclic-Graph Ensembles for Subject-Specific Motor-Imagery EEG Decoding\"",
-      "owner": "Abdulateef, Salwa Khalid",
-      "url": "https://doi.org/10.5281/zenodo.22848294",
-      "source": "zenodo",
-      "description": "Result files of the article \"Annealed Search over Directed-Acyclic-Graph Ensembles for Subject-Specific Motor-Imagery EEG Decoding\" (Machine Learning with Applications, manuscript MLWA-D-26-01081R2). The archive holds, for BCI Competition IV Dataset 1 (single split, 20 seeds; re…",
-      "tags": [
-        "brain-computer interface",
-        "motor imagery",
-        "EEG",
-        "ensemble learning",
-        "simulated annealing",
-        "common spatial patterns",
-        "reproducibility"
-      ],
-      "license": "cc-by-4.0",
-      "downloads": 10,
-      "likes": null,
-      "updatedAt": "2026-09-19T00:00:00.000Z",
-      "modality": [
-        "EEG"
-      ]
-    },
-    {
-      "id": "zenodo:22770099",
-      "name": "Material for paper \"Oscillatory and aperiodic EEG dynamics reflects behaviour during supra second timing\"",
-      "owner": "Guarnieri, Lorenzo",
-      "url": "https://doi.org/10.5281/zenodo.22770099",
-      "source": "zenodo",
-      "description": "Material for paper \"Oscillatory and aperiodic EEG dynamics reflects behaviour during supra second timing\"",
-      "tags": [],
-      "license": "cc-by-4.0",
-      "downloads": 2,
-      "likes": null,
-      "updatedAt": "2026-09-15T00:00:00.000Z",
-      "modality": [
-        "EEG"
-      ]
-    },
-    {
       "id": "github:neowalter/neoxai",
       "name": "neoxai",
       "owner": "neowalter",
@@ -988,8 +985,8 @@
       ],
       "license": "NOASSERTION",
       "downloads": null,
-      "likes": 4,
-      "updatedAt": "2026-09-26T02:42:03.000Z",
+      "likes": 5,
+      "updatedAt": "2026-09-27T03:11:43.000Z",
       "modality": [
         "EEG"
       ]
