@@ -1,151 +1,32 @@
 {
   "date": "2026-09-27",
   "generated_at": "2026-09-27T03:11:33.319323+00:00",
-  "item_count": 12,
+  "item_count": 10,
   "types": {
-    "Project": 1,
-    "Tutorial": 3,
-    "Benchmark": 8
+    "Benchmark": 10
   },
   "highlights": [
     {
-      "title_zh": "非侵入式脑机接口 EEG-Deformer 的 PyTorch 实现",
-      "title_en": "EEG_Deformer PyTorch Implementation for Non-invasive BCI",
-      "url": "https://github.com/requisite-study641/EEG_Deformer",
-      "brief": "非侵入式EEG-BCI模型实现，可解码脑状态。"
+      "title_zh": "BCI竞赛列表",
+      "title_en": "BBCI BCI Competitions Registry",
+      "url": "https://www.bbci.de/competition/",
+      "brief": "BBCI汇总BCI竞赛数据集，用于评估非侵入式脑机接口算法。"
     },
     {
-      "title_zh": "入门指南 | OpenBCI 文档",
-      "title_en": "Getting Started | OpenBCI Documentation",
-      "url": "https://docs.openbci.com/GettingStarted/GettingStartedLanding/",
-      "brief": "OpenBCI非侵入式脑电设备官方入门文档，指导硬件与软件使用。"
+      "title_zh": "BNCI Horizon 2020数据集库",
+      "title_en": "BNCI Horizon 2020 Dataset Registry",
+      "url": "http://bnci-horizon-2020.eu/database/data-sets",
+      "brief": "BNCI数据集库汇总EEG脑机接口数据，便于算法评测。"
     },
     {
-      "title_zh": "代码示例 — BrainFlow 文档",
-      "title_en": "Code Samples — BrainFlow documentation",
-      "url": "https://brainflow.readthedocs.io/en/stable/Examples.html",
-      "brief": "BrainFlow非侵入式脑电库代码示例，帮助开发者快速接入设备。"
+      "title_zh": "PhysioNet 脑电运动执行/想象数据集 v1.0.0",
+      "title_en": "PhysioNet EEG Motor Movement/Imagery Dataset v1.0.0",
+      "url": "https://physionet.org/content/eegmmidb/1.0.0/",
+      "brief": "PhysioNet运动想象EEG数据集，常用于非侵入式BCI评测。"
     }
   ],
-  "github_path": "docs/bci-daily/2026-09-27.md",
+  "github_path": "docs/bci-benchmarks/2026-09-27.md",
   "items": [
-    {
-      "type": "Project",
-      "level": "Advanced",
-      "title_zh": "非侵入式脑机接口 EEG-Deformer 的 PyTorch 实现",
-      "title_en": "EEG_Deformer PyTorch Implementation for Non-invasive BCI",
-      "bullets_zh": [
-        "GitHub项目提供EEG-Deformer卷积Transformer的PyTorch实现，用于非侵入式EEG脑机接口。",
-        "面向从EEG信号解码心理状态，为研究者提供开源模型基线。"
-      ],
-      "bullets_en": [
-        "GitHub project provides a PyTorch implementation of the EEG-Deformer convolutional transformer for non-invasive EEG-based BCI.",
-        "It targets mental-state decoding from EEG signals, offering researchers an open-source model baseline."
-      ],
-      "url": "https://github.com/requisite-study641/EEG_Deformer",
-      "published": "2026-09-27T00:28:13Z",
-      "source": "github",
-      "brief": "非侵入式EEG-BCI模型实现，可解码脑状态。",
-      "language": "en",
-      "tags": [
-        "eeg",
-        "bci",
-        "pytorch",
-        "transformer",
-        "deformer",
-        "github"
-      ],
-      "brief_en": "Non-invasive EEG BCI PyTorch implementation of EEG-Deformer for decoding mental states.",
-      "raw_excerpt": "Decode mental states from EEG signals using this PyTorch implementation of the EEG-Deformer convolutional transformer for brain-computer interfaces.",
-      "fetched_at": "2026-09-27T03:11:33.304292+00:00"
-    },
-    {
-      "type": "Tutorial",
-      "level": "Beginner",
-      "title_zh": "入门指南 | OpenBCI 文档",
-      "title_en": "Getting Started | OpenBCI Documentation",
-      "bullets_zh": [
-        "官方指南，用于设置OpenBCI Cyton和Ganglion板。",
-        "涵盖电极、头带、第三方硬件与软件工作流。"
-      ],
-      "bullets_en": [
-        "Official guide for setting up OpenBCI Cyton and Ganglion boards.",
-        "Covers electrodes, headwear, third-party hardware, and software workflows."
-      ],
-      "url": "https://docs.openbci.com/GettingStarted/GettingStartedLanding/",
-      "published": "",
-      "source": "tutorial",
-      "brief": "OpenBCI非侵入式脑电设备官方入门文档，指导硬件与软件使用。",
-      "language": "en",
-      "tags": [
-        "tutorial",
-        "openbci",
-        "eeg",
-        "getting-started"
-      ],
-      "brief_en": "Official OpenBCI getting-started docs for non-invasive EEG hardware and software use.",
-      "raw_excerpt": "Getting Started | OpenBCI Documentation Skip to main content OpenBCI Documentation Main Site Shop Forum Documentation Github Citations Search Welcome to OpenBCI Getting Started Getting Started Boards Biosensing Setups Community Documentation Cyton Board Ganglion Board Headwear & Electrodes Third-Party Hardware Software For Developers Deprecated Documents Troubleshooting Example Projects FAQ Polici",
-      "fetched_at": "2026-09-27T03:11:33.304292+00:00"
-    },
-    {
-      "type": "Tutorial",
-      "level": "Intermediate",
-      "title_zh": "代码示例 — BrainFlow 文档",
-      "title_en": "Code Samples — BrainFlow documentation",
-      "bullets_zh": [
-        "展示支持的非侵入式脑机接口板卡与流数据的示例代码。",
-        "帮助用户连接OpenBCI、Galea、NeuroMD、BrainBit等设备。"
-      ],
-      "bullets_en": [
-        "Shows example code for supported non-invasive BCI boards and streaming data.",
-        "Helps users connect OpenBCI, Galea, NeuroMD, BrainBit, and other devices."
-      ],
-      "url": "https://brainflow.readthedocs.io/en/stable/Examples.html",
-      "published": "",
-      "source": "tutorial",
-      "brief": "BrainFlow非侵入式脑电库代码示例，帮助开发者快速接入设备。",
-      "language": "en",
-      "tags": [
-        "tutorial",
-        "brainflow",
-        "eeg",
-        "code-samples"
-      ],
-      "brief_en": "BrainFlow code samples for non-invasive EEG devices, helping developers quickly integrate boards.",
-      "raw_excerpt": "Code Samples — BrainFlow documentation BrainFlow Supported Boards BrainFlow Dummy Boards Playback File Board Streaming Board Synthetic Board OpenBCI Galea Cyton Ganglion Native Cyton Daisy Ganglion with WIFI Shield Cyton with WIFI Shield CytonDaisy with WIFI Shield NeuroMD BrainBit Callibri(Yellow) G.TEC Unicorn Neurosity Notion 1 Notion 2 Crown OYMotion gForcePro ArmBand gForceDual ArmBand FreeEE",
-      "fetched_at": "2026-09-27T03:11:33.304292+00:00"
-    },
-    {
-      "type": "Tutorial",
-      "level": "Intermediate",
-      "title_zh": "BrainFlow 5.23.0 发布",
-      "title_en": "BrainFlow 5.23.0 Release",
-      "bullets_zh": [
-        "BrainFlow是用于采集和处理非侵入式脑机接口信号的开源库。",
-        "5.23.0版本更新了对EEG、fNIRS及消费/科研设备的支持。",
-        "它帮助开发者基于OpenBCI等头环构建教程与应用。"
-      ],
-      "bullets_en": [
-        "BrainFlow is an open-source library for acquiring and processing non-invasive BCI signals.",
-        "Version 5.23.0 updates support for EEG, fNIRS, and consumer/research devices.",
-        "It helps developers build tutorials and applications with headsets such as OpenBCI."
-      ],
-      "url": "https://github.com/brainflow-dev/brainflow/releases/tag/5.23.0",
-      "published": "2026-09-26T09:04:30Z",
-      "source": "tutorial",
-      "brief": "BrainFlow 5.23.0发布，更新非侵入式BCI采集与处理工具。",
-      "language": "en",
-      "tags": [
-        "tutorial",
-        "brainflow",
-        "eeg",
-        "fnirs",
-        "open-source"
-      ],
-      "brief_en": "BrainFlow 5.23.0 release updates tools for non-invasive BCI data acquisition and processing.",
-      "raw_excerpt": "",
-      "fetched_at": "2026-09-27T03:11:33.304292+00:00"
-    },
     {
       "type": "Benchmark",
       "level": "Advanced",
@@ -391,6 +272,78 @@
       "brief_en": "MOABB fixes equation display to improve benchmark documentation readability.",
       "raw_excerpt": "DOC correct equation display (#1173) Co-authored-by: Bru",
       "fetched_at": "2026-09-27T03:11:33.304292+00:00"
+    },
+    {
+      "type": "Benchmark",
+      "level": "General",
+      "title_zh": "MOABB修复extra_runs行为并更新RomaniBF2025ERP epoch提取",
+      "title_en": "MOABB fixes extra_runs behaviour and RomaniBF2025ERP epoch extraction",
+      "bullets_zh": [
+        "修复MOABB数据集处理中extra_runs的行为。",
+        "重构RomaniBF2025ERP的epoch提取并加入末端/校准缓冲。",
+        "提升基于ERP的非侵入式脑机接口基准可复现性。"
+      ],
+      "bullets_en": [
+        "Fixes the behaviour of extra_runs in MOABB dataset handling.",
+        "Refactors RomaniBF2025ERP epoch extraction with an end/calibration buffer.",
+        "Improves reproducibility for ERP-based non-invasive BCI benchmarks."
+      ],
+      "url": "https://github.com/NeuroTechX/moabb/commit/65eccb11f5ad104bba61ea707982c4493fe0cf32",
+      "published": "2026-09-05T08:14:06Z",
+      "source": "benchmark",
+      "brief": "MOABB修复extra_runs行为并更新ERP epoch提取。",
+      "language": "en",
+      "tags": [
+        "moabb",
+        "benchmark",
+        "erp",
+        "epoching"
+      ],
+      "brief_en": "MOABB fixes extra_runs behavior and updates RomaniBF2025ERP epoch extraction.",
+      "raw_excerpt": "Fixed behaviour of extra_runs (#1175) * Refactor RomaniBF2025ERP to add an end buffer to the epoch extraction Updated the RomaniBF2025ERP class. Modified example usage and adjusted the crop method to account for the calibration buffer. Signed-off-by: Michele Romani * [pre-commit.ci] auto fixes from pre-commit.com hooks * Fix epoch extraction in RomaniBF2025ERP da",
+      "fetched_at": "2026-09-27T03:11:33.304292+00:00"
+    },
+    {
+      "type": "Benchmark",
+      "level": "General",
+      "title_zh": "MOABB开启1.8开发周期",
+      "title_en": "MOABB opens 1.8 development cycle",
+      "bullets_zh": [
+        "开启MOABB 1.8版本的开发周期。",
+        "预告EEG基准平台即将进行功能和维护更新。",
+        "帮助开发者跟踪新的非侵入式脑机接口评估变更何时落地。"
+      ],
+      "bullets_en": [
+        "Opens the development cycle for MOABB version 1.8.",
+        "Signals upcoming feature and maintenance updates for the EEG benchmark platform.",
+        "Helps developers track when new non-invasive BCI evaluation changes will land."
+      ],
+      "url": "https://github.com/NeuroTechX/moabb/commit/f26a09d2fc873124a03a7c551cb8455649ec85ff",
+      "published": "2026-08-31T21:37:23Z",
+      "source": "benchmark",
+      "brief": "MOABB开启1.8开发周期，预告EEG基准平台更新。",
+      "language": "en",
+      "tags": [
+        "moabb",
+        "benchmark",
+        "release",
+        "roadmap"
+      ],
+      "brief_en": "MOABB opens the 1.8 development cycle, signaling upcoming EEG benchmark platform updates.",
+      "raw_excerpt": "Open the 1.8 development cycle (#1172)",
+      "fetched_at": "2026-09-27T03:11:33.304292+00:00"
     }
-  ]
+  ],
+  "stats": {
+    "fetched": 67,
+    "llm_rows": 14,
+    "kept": 12,
+    "llm_failed": false,
+    "llm_skipped_batches": 3,
+    "prefiltered": 46,
+    "intel": 0,
+    "tutorials": 3,
+    "benchmarks": 10,
+    "conflicts_dropped": 0
+  }
 }

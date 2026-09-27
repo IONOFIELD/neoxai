@@ -392,5 +392,17 @@
       "raw_excerpt": "DOC correct equation display (#1173) Co-authored-by: Bru",
       "fetched_at": "2026-09-27T03:11:33.304292+00:00"
     }
-  ]
+  ],
+  "stats": {
+    "fetched": 67,
+    "llm_rows": 14,
+    "kept": 12,
+    "llm_failed": false,
+    "llm_skipped_batches": 3,
+    "prefiltered": 46,
+    "intel": 0,
+    "tutorials": 3,
+    "benchmarks": 10,
+    "conflicts_dropped": 0
+  }
 }
