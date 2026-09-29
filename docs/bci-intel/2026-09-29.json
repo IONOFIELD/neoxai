@@ -47,5 +47,17 @@
       "raw_excerpt": "Addressing the three core issues in research on cognitive control deficits in Internet Gaming Disorder (IGD)-unclear neural mechanisms, limited intervention targets, and poor patient compliance-this project innovatively constructs a pathological model of IGD characterized by \"decline in social rewards → dysfunction of the dorsal Anterior Cingulate Cortex-Dorsolateral Prefrontal Cortex (dACC-DLPFC)",
       "fetched_at": "2026-09-29T03:47:01.462686+00:00"
     }
-  ]
+  ],
+  "stats": {
+    "fetched": 76,
+    "llm_rows": 33,
+    "kept": 12,
+    "llm_failed": false,
+    "llm_skipped_batches": 2,
+    "prefiltered": 55,
+    "intel": 1,
+    "tutorials": 11,
+    "benchmarks": 19,
+    "conflicts_dropped": 0
+  }
 }

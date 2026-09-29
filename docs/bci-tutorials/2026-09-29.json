@@ -1,98 +1,32 @@
 {
   "date": "2026-09-29",
   "generated_at": "2026-09-29T03:47:01.472604+00:00",
-  "item_count": 12,
+  "item_count": 11,
   "types": {
-    "Project": 2,
-    "Tutorial": 10
+    "Tutorial": 11
   },
   "highlights": [
-    {
-      "title_zh": "基于运动想象与错误相关电位学习的3D打印手部矫形器项目",
-      "title_en": "Motor Imagery Hand Orthosis with Error-Related Potential Learning",
-      "url": "https://github.com/nazariegosantomeluis-droid/ortesis-bci",
-      "brief": "非侵入式EEG手部矫形器项目，用运动想象和ErrP自适应控制。"
-    },
-    {
-      "title_zh": "脑机接口监管情报追踪器",
-      "title_en": "BCI Regulatory Intelligence Tracker",
-      "url": "https://github.com/tmai-tech/regintel",
-      "brief": "追踪脑机接口法规的采集器与界面，辅助非侵入式BCI合规监测。"
-    },
     {
       "title_zh": "欢迎来到OpenBCI社区｜OpenBCI文档",
       "title_en": "Welcome to the OpenBCI Community | OpenBCI Documentation",
       "url": "https://docs.openbci.com/",
       "brief": "OpenBCI官方入门文档，指导非侵入式EEG设备使用。"
+    },
+    {
+      "title_zh": "OpenBCI 文档入门指南",
+      "title_en": "Getting Started | OpenBCI Documentation",
+      "url": "https://docs.openbci.com/GettingStarted/GettingStartedLanding/",
+      "brief": "OpenBCI官方入门文档，帮助快速搭建非侵入式EEG实验。"
+    },
+    {
+      "title_zh": "BrainFlow 文档首页",
+      "title_en": "Welcome to BrainFlow’s documentation! — BrainFlow documentation",
+      "url": "https://brainflow.readthedocs.io/en/stable/",
+      "brief": "BrainFlow文档首页，汇总支持的EEG设备与开发入口。"
     }
   ],
-  "github_path": "docs/bci-daily/2026-09-29.md",
+  "github_path": "docs/bci-tutorials/2026-09-29.md",
   "items": [
-    {
-      "type": "Project",
-      "level": "Advanced",
-      "title_zh": "基于运动想象与错误相关电位学习的3D打印手部矫形器项目",
-      "title_en": "Motor Imagery Hand Orthosis with Error-Related Potential Learning",
-      "bullets_zh": [
-        "开发由运动想象EEG控制的3D打印手部矫形器。",
-        "使用错误相关电位（ErrP）作为奖励信号，随时间改进控制。",
-        "加入振动反馈，并评估用户身体图式中的整合程度。"
-      ],
-      "bullets_en": [
-        "Develops a 3D-printed hand orthosis controlled by motor imagery EEG.",
-        "Uses error-related potentials (ErrP) as reward signals to improve control over time.",
-        "Adds vibration feedback and evaluates incorporation into the user's body schema."
-      ],
-      "url": "https://github.com/nazariegosantomeluis-droid/ortesis-bci",
-      "published": "2026-09-28T23:40:16Z",
-      "source": "github",
-      "brief": "非侵入式EEG手部矫形器项目，用运动想象和ErrP自适应控制。",
-      "language": "mixed",
-      "tags": [
-        "bci",
-        "eeg",
-        "motor-imagery",
-        "errp",
-        "orthosis",
-        "3d-printing",
-        "rehabilitation",
-        "non-invasive"
-      ],
-      "brief_en": "Non-invasive EEG hand orthosis project using motor imagery and ErrP for adaptive control.",
-      "raw_excerpt": "Construimos una órtesis de mano impresa en 3D que se mueve con imaginación motora y aprende sola a obedecer mejor, usando la señal de error del cerebro (ErrP) como recompensa. Devuelve sensación por vibración y medimos cuánto la incorpora el usuario a su esquema corporal, en la línea de Stanisa Raspopovic.",
-      "fetched_at": "2026-09-29T03:47:01.462686+00:00"
-    },
-    {
-      "type": "Project",
-      "level": "General",
-      "title_zh": "脑机接口监管情报追踪器",
-      "title_en": "BCI Regulatory Intelligence Tracker",
-      "bullets_zh": [
-        "提供采集器和界面，用于追踪脑机接口相关法律文件。",
-        "帮助监测与BCI设备相关的监管变化，包括非侵入式系统。",
-        "适用于合规、研究规划与市场准入监测。"
-      ],
-      "bullets_en": [
-        "Provides a collector and UI to track BCI-related legal acts.",
-        "Helps monitor regulatory changes relevant to BCI devices, including non-invasive systems.",
-        "Useful for compliance, research planning, and market-entry monitoring."
-      ],
-      "url": "https://github.com/tmai-tech/regintel",
-      "published": "2026-09-28T23:25:51Z",
-      "source": "github",
-      "brief": "追踪脑机接口法规的采集器与界面，辅助非侵入式BCI合规监测。",
-      "language": "en",
-      "tags": [
-        "regulatory",
-        "bci",
-        "compliance",
-        "legal-tracking",
-        "tool"
-      ],
-      "brief_en": "Tracks BCI legal acts with a collector and UI to support non-invasive BCI regulatory monitoring.",
-      "raw_excerpt": "BCI Regulatory Intelligence — legal act tracking collector & UI",
-      "fetched_at": "2026-09-29T03:47:01.462686+00:00"
-    },
     {
       "type": "Tutorial",
       "level": "Beginner",
@@ -394,6 +328,49 @@
       "brief_en": "Tsinghua BCI group portal offering EEG benchmark datasets and downloadable research materials.",
       "raw_excerpt": "清华大学脑机接口研究组 主站 Home 新闻动态 News 组内成员 Members 研究方向 Research 研究成果 Findings 前沿跟踪 Followings 资料下载 Download 联系我们 Contact 资料下载 Download Benchmark Dataset： 文件名（File）： 下载（Download）： read me Readme.txt sub info Sub_info.txt 64-channels 64-channels.loc freqency phase Freq_Phase.mat S1.mat S1.mat.7z S2.mat S2.mat.7z S3.mat S3.mat.7z S4.mat S4.mat.7z S5.mat S5.mat.7z S6.mat S6.mat.7z S7.mat S7.mat.7z S8.mat S8.",
       "fetched_at": "2026-09-29T03:47:01.462686+00:00"
+    },
+    {
+      "type": "Tutorial",
+      "level": "Intermediate",
+      "title_zh": "BrainFlow 5.23.0 发布",
+      "title_en": "BrainFlow 5.23.0 Release",
+      "bullets_zh": [
+        "BrainFlow是用于采集非侵入式BCI设备数据的开源库。",
+        "5.23.0版本更新了对EEG/fNIRS硬件和流式工作流的支持。",
+        "适合作为构建BCI应用的教程级软件资源。"
+      ],
+      "bullets_en": [
+        "BrainFlow is an open-source library for acquiring data from non-invasive BCI devices.",
+        "Version 5.23.0 updates support for EEG/fNIRS hardware and streaming workflows.",
+        "Useful as a tutorial-level software resource for building BCI applications."
+      ],
+      "url": "https://github.com/brainflow-dev/brainflow/releases/tag/5.23.0",
+      "published": "2026-09-26T09:04:30Z",
+      "source": "tutorial",
+      "brief": "BrainFlow开源BCI库更新，支持非侵入式EEG/fNIRS设备接入。",
+      "language": "en",
+      "tags": [
+        "tutorial",
+        "brainflow",
+        "eeg",
+        "fnirs",
+        "open-source"
+      ],
+      "brief_en": "BrainFlow open-source BCI library release supporting non-invasive EEG and fNIRS device integration.",
+      "raw_excerpt": "",
+      "fetched_at": "2026-09-29T03:47:01.462686+00:00"
     }
-  ]
+  ],
+  "stats": {
+    "fetched": 76,
+    "llm_rows": 33,
+    "kept": 12,
+    "llm_failed": false,
+    "llm_skipped_batches": 2,
+    "prefiltered": 55,
+    "intel": 1,
+    "tutorials": 11,
+    "benchmarks": 19,
+    "conflicts_dropped": 0
+  }
 }
