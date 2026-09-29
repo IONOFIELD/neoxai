@@ -328,5 +328,19 @@
     "zh": "今日洞察：基准资源与社区信号共同显示，非侵入式BCI正从单点实验走向可复现评测和多模态应用。BBCI、BCI Competition IV与BNCI数据集库为模型比较、数据复用和论文对标提供了稳定入口。\n• 基准生态成熟：历届竞赛与公开数据集便于快速验证算法。\n• 多模态需求上升：EEG+眼动硬件讨论反映用户希望增强意图识别与交互稳定性。\n• 二手设备活跃：Emotiv头环转售提示入门级非侵入BCI硬件流通，但需关注数据质量与校准成本。",
     "en": "Daily insight: Benchmark resources and community signals show non-invasive BCI is moving from isolated experiments toward reproducible evaluation and multimodal applications. BBCI, BCI Competition IV, and the BNCI Horizon 2020 dataset registry provide stable entry points for model comparison, data reuse, and paper benchmarking.\n• Mature benchmark ecosystem: competition archives and public datasets make algorithm validation faster.\n• Rising multimodal demand: EEG plus eye-tracking hardware discussions suggest users want more robust intent detection and interaction stability.\n• Active secondary market: Emotiv headset resale signals accessible non-invasive BCI hardware, but data quality and calibration costs remain watchpoints.",
     "source": "llm"
+  },
+  "stats": {
+    "fetched": 147,
+    "llm_rows": 19,
+    "kept": 6,
+    "llm_failed": false,
+    "llm_skipped_batches": 5,
+    "prefiltered": 86,
+    "intel": 0,
+    "tutorials": 0,
+    "benchmarks": 6,
+    "suppliers": 0,
+    "signals": 5,
+    "conflicts_dropped": 0
   }
 }

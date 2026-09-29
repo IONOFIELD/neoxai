@@ -5,4 +5,5 @@
 
 | 日期 Date | 类型速览 Types | 条目 Items |
 |-----------|----------------|-----------|
+| [2026-09-29](./2026-09-29.md) | Benchmark、SocialSignal | 5 |
 | [2026-09-13](./2026-09-13.md) | Expert、Project、SocialSignal、Supplier | 9 |

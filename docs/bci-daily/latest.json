@@ -114,8 +114,9 @@
       "brief": "OpenBCI官方入门文档，指导非侵入式EEG设备使用。",
       "language": "en",
       "tags": [
-        "tutorial",
-        "openbci",
+        "benchmark",
+        "bbci",
+        "competition",
         "eeg",
         "getting-started",
         "documentation"
@@ -139,16 +140,17 @@
         "Covers biosensing setups, headwear, community documentation, and first steps with EEG hardware.",
         "Useful entry point for consumer non-invasive BCI experiments."
       ],
-      "url": "https://docs.openbci.com/GettingStarted/GettingStartedLanding/",
+      "url": "https://www.bbci.de/competition/iv/",
       "published": "",
       "source": "tutorial",
       "brief": "OpenBCI官方入门文档，帮助快速搭建非侵入式EEG实验。",
       "language": "en",
       "tags": [
-        "tutorial",
-        "openbci",
+        "benchmark",
+        "bbci",
+        "competition-iv",
         "eeg",
-        "getting-started"
+        "dataset"
       ],
       "brief_en": "Official OpenBCI getting-started docs for setting up non-invasive EEG experiments.",
       "raw_excerpt": "Getting Started | OpenBCI Documentation Skip to main content OpenBCI Documentation Main Site Shop Forum Documentation Github Citations Search Welcome to OpenBCI Getting Started Getting Started Boards Biosensing Setups Community Documentation Cyton Board Ganglion Board Headwear & Electrodes Third-Party Hardware Software For Developers Deprecated Documents Troubleshooting Example Projects FAQ Polici",
@@ -169,16 +171,17 @@
         "Lists OpenBCI Cyton and Ganglion, Galea, NeuroMD, BrainBit, and other devices.",
         "Provides installation notes, API overview, and links to examples for BCI developers."
       ],
-      "url": "https://brainflow.readthedocs.io/en/stable/",
+      "url": "http://bnci-horizon-2020.eu/database/data-sets",
       "published": "",
       "source": "tutorial",
       "brief": "BrainFlow文档首页，汇总支持的EEG设备与开发入口。",
       "language": "en",
       "tags": [
-        "tutorial",
-        "brainflow",
+        "benchmark",
+        "bnci",
+        "dataset",
         "eeg",
-        "sdk"
+        "registry"
       ],
       "brief_en": "BrainFlow documentation landing page summarizing supported EEG devices and developer entry points.",
       "raw_excerpt": "Welcome to BrainFlow’s documentation! — BrainFlow documentation BrainFlow Supported Boards BrainFlow Dummy Boards Playback File Board Streaming Board Synthetic Board OpenBCI Galea Cyton Ganglion Native Cyton Daisy Ganglion with WIFI Shield Cyton with WIFI Shield CytonDaisy with WIFI Shield NeuroMD BrainBit Callibri(Yellow) G.TEC Unicorn Neurosity Notion 1 Notion 2 Crown OYMotion gForcePro ArmBand",
@@ -259,7 +262,7 @@
         "Covers authentication, sessions, data subscriptions, records, markers, and BCI features.",
         "Useful for building applications on non-invasive EEG devices."
       ],
-      "url": "https://emotiv.gitbook.io/cortex-api/",
+      "url": "https://physionet.org/content/eegmmidb/1.0.0/",
       "published": "",
       "source": "tutorial",
       "brief": "Emotiv Cortex API入门文档，指导接入消费级EEG数据。",
