@@ -398,5 +398,17 @@
       "raw_excerpt": "Welcome to the OpenBCI Community | OpenBCI Documentation Skip to main content OpenBCI Documentation Main Site Shop Forum Documentation Github Citations Search Welcome to OpenBCI Welcome to the OpenBCI Community Getting Started Cyton Board Ganglion Board Headwear & Electrodes Third-Party Hardware Software For Developers Deprecated Documents Troubleshooting Example Projects FAQ Policies Welcome to O",
       "fetched_at": "2026-09-30T03:37:35.728296+00:00"
     }
-  ]
+  ],
+  "stats": {
+    "fetched": 80,
+    "llm_rows": 41,
+    "kept": 12,
+    "llm_failed": false,
+    "llm_skipped_batches": 2,
+    "prefiltered": 60,
+    "intel": 0,
+    "tutorials": 10,
+    "benchmarks": 24,
+    "conflicts_dropped": 0
+  }
 }
