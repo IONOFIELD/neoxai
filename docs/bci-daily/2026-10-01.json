@@ -398,5 +398,17 @@
       "raw_excerpt": "EEG During Mental Arithmetic Tasks v1.0.0 Version: 1.0.0 --> Menu Share About FAQs Explore Data View datasets Software View software Challenges View challenges Tutorials View tutorials Cancel Search Search PhysioNet Log in Share About FAQs Data View datasets Software View software Challenges View challenges Tutorials View tutorials Database Open Access EEG During Mental Arithmetic Tasks Igor Zyma",
       "fetched_at": "2026-10-01T02:39:36.941042+00:00"
     }
-  ]
+  ],
+  "stats": {
+    "fetched": 71,
+    "llm_rows": 25,
+    "kept": 12,
+    "llm_failed": false,
+    "llm_skipped_batches": 1,
+    "prefiltered": 50,
+    "intel": 1,
+    "tutorials": 7,
+    "benchmarks": 15,
+    "conflicts_dropped": 0
+  }
 }

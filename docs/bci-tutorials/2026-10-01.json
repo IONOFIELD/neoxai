@@ -1,129 +1,32 @@
 {
   "date": "2026-10-01",
   "generated_at": "2026-10-01T02:39:36.951875+00:00",
-  "item_count": 12,
+  "item_count": 7,
   "types": {
-    "Benchmark": 3,
-    "Project": 2,
     "Tutorial": 7
   },
   "highlights": [
     {
-      "title_zh": "Dreyer等2023大型运动想象脑机接口EEG数据集",
-      "title_en": "Dreyer et al. 2023 Large EEG Motor-Imagery BCI Dataset",
-      "url": "https://github.com/nemarDatasets/nm000250",
-      "brief": "大型运动想象EEG数据集，适合非侵入BCI评测与复现。"
+      "title_zh": "欢迎来到OpenBCI社区｜OpenBCI文档",
+      "title_en": "Welcome to the OpenBCI Community | OpenBCI Documentation",
+      "url": "https://docs.openbci.com/",
+      "brief": "OpenBCI官方文档，提供非侵入式EEG设备入门与社区资源。"
     },
     {
-      "title_zh": "面向脑机接口的 EEG-Deformer PyTorch 实现",
-      "title_en": "EEG-Deformer PyTorch Implementation for BCI",
-      "url": "https://github.com/requisite-study641/EEG_Deformer",
-      "brief": "提供EEG-Deformer的PyTorch实现，便于非侵入式BCI建模与复现。"
+      "title_zh": "OpenBCI 入门文档",
+      "title_en": "Getting Started | OpenBCI Documentation",
+      "url": "https://docs.openbci.com/GettingStarted/GettingStartedLanding/",
+      "brief": "OpenBCI官方入门文档，指导搭建与使用非侵入式EEG设备。"
     },
     {
-      "title_zh": "BCI与EEG开放资源精选仓库",
-      "title_en": "Curated BCI and EEG Resource Repository",
-      "url": "https://github.com/neowalter/neoxai",
-      "brief": "汇集BCI/EEG数据集、模型与文献，便于非侵入式研究资源发现。"
+      "title_zh": "BrainFlow 文档首页",
+      "title_en": "Welcome to BrainFlow’s documentation! — BrainFlow documentation",
+      "url": "https://brainflow.readthedocs.io/en/stable/",
+      "brief": "BrainFlow官方文档首页，介绍支持的非侵入式脑电设备与API。"
     }
   ],
-  "github_path": "docs/bci-daily/2026-10-01.md",
+  "github_path": "docs/bci-tutorials/2026-10-01.md",
   "items": [
-    {
-      "type": "Benchmark",
-      "level": "Advanced",
-      "title_zh": "Dreyer等2023大型运动想象脑机接口EEG数据集",
-      "title_en": "Dreyer et al. 2023 Large EEG Motor-Imagery BCI Dataset",
-      "bullets_zh": [
-        "GitHub数据集条目，对应Dreyer等2023年的大型EEG数据库并包含用户画像。",
-        "面向运动想象脑机接口研究与基准评测。",
-        "可用于在非侵入式EEG真实受试者数据上评估解码模型。"
-      ],
-      "bullets_en": [
-        "GitHub dataset entry for Dreyer et al. 2023, a large EEG database with user profiles.",
-        "Targets motor-imagery BCI research and benchmarking.",
-        "Useful for evaluating non-invasive EEG decoding models on real participant data."
-      ],
-      "url": "https://github.com/nemarDatasets/nm000250",
-      "published": "2026-09-30T08:33:38Z",
-      "source": "github",
-      "brief": "大型运动想象EEG数据集，适合非侵入BCI评测与复现。",
-      "language": "en",
-      "tags": [
-        "benchmark",
-        "eeg",
-        "motor-imagery",
-        "bci",
-        "dataset"
-      ],
-      "brief_en": "Large motor-imagery EEG dataset for non-invasive BCI benchmarking and reproduction.",
-      "raw_excerpt": "Dreyer et al. 2023 — A large EEG database with users' profile information for motor imagery brain-computer interface research",
-      "fetched_at": "2026-10-01T02:39:36.941042+00:00"
-    },
-    {
-      "type": "Project",
-      "level": "Advanced",
-      "title_zh": "面向脑机接口的 EEG-Deformer PyTorch 实现",
-      "title_en": "EEG-Deformer PyTorch Implementation for BCI",
-      "bullets_zh": [
-        "提供 EEG-Deformer 卷积 Transformer 的 PyTorch 实现。",
-        "面向非侵入式 EEG 信号的心理状态解码。",
-        "可作为基于 EEG 脑机接口模型开发的开源基线。"
-      ],
-      "bullets_en": [
-        "Provides a PyTorch implementation of the EEG-Deformer convolutional transformer.",
-        "Targets mental-state decoding from non-invasive EEG signals.",
-        "Useful as an open-source baseline for EEG-based BCI model development."
-      ],
-      "url": "https://github.com/requisite-study641/EEG_Deformer",
-      "published": "2026-09-30T06:21:46Z",
-      "source": "github",
-      "brief": "提供EEG-Deformer的PyTorch实现，便于非侵入式BCI建模与复现。",
-      "language": "en",
-      "tags": [
-        "eeg",
-        "bci",
-        "pytorch",
-        "transformer",
-        "deformer",
-        "deep-learning"
-      ],
-      "brief_en": "Open-source PyTorch implementation of EEG-Deformer for non-invasive BCI modeling and reproduction.",
-      "raw_excerpt": "Decode mental states from EEG signals using this PyTorch implementation of the EEG-Deformer convolutional transformer for brain-computer interfaces.",
-      "fetched_at": "2026-10-01T02:39:36.941042+00:00"
-    },
-    {
-      "type": "Project",
-      "level": "General",
-      "title_zh": "BCI与EEG开放资源精选仓库",
-      "title_en": "Curated BCI and EEG Resource Repository",
-      "bullets_zh": [
-        "汇集开放的 BCI/EEG 数据集、模型、处理方法、新闻与论文。",
-        "帮助研究者在一个 GitHub 仓库中发现非侵入式脑机接口资源。",
-        "可作为数据集选择与文献追踪的动态目录。"
-      ],
-      "bullets_en": [
-        "Aggregates open BCI/EEG datasets, models, processing methods, news, and papers.",
-        "Helps researchers discover non-invasive BCI resources in one GitHub repository.",
-        "Useful as a living catalog for dataset selection and literature tracking."
-      ],
-      "url": "https://github.com/neowalter/neoxai",
-      "published": "2026-10-01T01:12:55Z",
-      "source": "github",
-      "brief": "汇集BCI/EEG数据集、模型与文献，便于非侵入式研究资源发现。",
-      "language": "en",
-      "tags": [
-        "bci",
-        "eeg",
-        "datasets",
-        "resources",
-        "papers",
-        "news"
-      ],
-      "brief_en": "Curated GitHub hub for BCI/EEG datasets, models, methods, news, and papers to support non-invasive research.",
-      "raw_excerpt": "Curated BCI/EEG open datasets, models, processing methods, and archived news/papers",
-      "fetched_at": "2026-10-01T02:39:36.941042+00:00"
-    },
     {
       "type": "Tutorial",
       "level": "Beginner",
@@ -335,68 +238,18 @@
       "brief_en": "Documentation for Mind Monitor, a consumer EEG streaming and graphing application.",
       "raw_excerpt": "Mind Monitor Toggle navigation Menu Mind Monitor Download Features Graphing Online Graphing with Excel FAQ Compatibility Connection Issues Streaming Data (OSC) Spec Recorded Data (CSV) Spec MATLAB Mellow and Concentration Privacy Policy Technical Manual Horseshoe Graphs Absolute Raw Discrete Spectrogram Accelerometer / Gyroscope Streaming Recording Contact Forums Mind Monitor - See what's really g",
       "fetched_at": "2026-10-01T02:39:36.941042+00:00"
-    },
-    {
-      "type": "Benchmark",
-      "level": "Intermediate",
-      "title_zh": "脑电运动与想象数据集 v1.0.0",
-      "title_en": "EEG Motor Movement/Imagery Dataset v1.0.0",
-      "bullets_zh": [
-        "PhysioNet收录该EEG运动与想象数据集v1.0.0版本。",
-        "它提供动作执行与想象试次，用于非侵入式BCI基准评测。",
-        "可作为运动想象解码流程的标准评估资源。"
-      ],
-      "bullets_en": [
-        "PhysioNet hosts the v1.0.0 release of this EEG Motor Movement/Imagery dataset.",
-        "It provides motor execution and imagery trials for non-invasive BCI benchmarking.",
-        "Useful as a standard evaluation resource for MI decoding pipelines."
-      ],
-      "url": "https://physionet.org/content/eegmmidb/1.0.0/",
-      "published": "",
-      "source": "benchmark",
-      "brief": "PhysioNet上的非侵入式BCI基准数据集，用于评估运动想象解码。",
-      "language": "en",
-      "tags": [
-        "benchmark",
-        "eeg",
-        "motor-imagery",
-        "physionet",
-        "bci"
-      ],
-      "brief_en": "PhysioNet benchmark EEG dataset for evaluating non-invasive motor-imagery BCI decoding.",
-      "raw_excerpt": "EEG Motor Movement/Imagery Dataset v1.0.0 Version: 1.0.0 --> Menu Share About FAQs Explore Data View datasets Software View software Challenges View challenges Tutorials View tutorials Cancel Search Search PhysioNet Log in Share About FAQs Data View datasets Software View software Challenges View challenges Tutorials View tutorials Database Open Access EEG Motor Movement/Imagery Dataset Gerwin Sch",
-      "fetched_at": "2026-10-01T02:39:36.941042+00:00"
-    },
-    {
-      "type": "Benchmark",
-      "level": "Intermediate",
-      "title_zh": "脑电心理算术任务数据集 v1.0.0",
-      "title_en": "EEG During Mental Arithmetic Tasks v1.0.0",
-      "bullets_zh": [
-        "PhysioNet收录该EEG心理算术数据集v1.0.0版本。",
-        "它提供心理算术任务期间的脑电记录，用于BCI评估。",
-        "可作为非侵入式认知状态解码的基准资源。"
-      ],
-      "bullets_en": [
-        "PhysioNet hosts the v1.0.0 release of this EEG mental arithmetic dataset.",
-        "It provides EEG recordings during mental arithmetic tasks for BCI evaluation.",
-        "Useful as a benchmark for non-invasive cognitive-state decoding."
-      ],
-      "url": "https://physionet.org/content/eegmat/1.0.0/",
-      "published": "",
-      "source": "benchmark",
-      "brief": "PhysioNet上的非侵入式BCI基准数据集，用于评估心理算术解码。",
-      "language": "en",
-      "tags": [
-        "benchmark",
-        "eeg",
-        "mental-arithmetic",
-        "physionet",
-        "bci"
-      ],
-      "brief_en": "PhysioNet benchmark EEG dataset for evaluating non-invasive mental-arithmetic BCI decoding.",
-      "raw_excerpt": "EEG During Mental Arithmetic Tasks v1.0.0 Version: 1.0.0 --> Menu Share About FAQs Explore Data View datasets Software View software Challenges View challenges Tutorials View tutorials Cancel Search Search PhysioNet Log in Share About FAQs Data View datasets Software View software Challenges View challenges Tutorials View tutorials Database Open Access EEG During Mental Arithmetic Tasks Igor Zyma",
-      "fetched_at": "2026-10-01T02:39:36.941042+00:00"
     }
-  ]
+  ],
+  "stats": {
+    "fetched": 71,
+    "llm_rows": 25,
+    "kept": 12,
+    "llm_failed": false,
+    "llm_skipped_batches": 1,
+    "prefiltered": 50,
+    "intel": 1,
+    "tutorials": 7,
+    "benchmarks": 15,
+    "conflicts_dropped": 0
+  }
 }
