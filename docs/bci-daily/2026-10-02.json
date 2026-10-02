@@ -396,5 +396,17 @@
       "raw_excerpt": "Neurosity SDK",
       "fetched_at": "2026-10-02T02:44:59.872836+00:00"
     }
-  ]
+  ],
+  "stats": {
+    "fetched": 72,
+    "llm_rows": 29,
+    "kept": 12,
+    "llm_failed": false,
+    "llm_skipped_batches": 1,
+    "prefiltered": 51,
+    "intel": 1,
+    "tutorials": 5,
+    "benchmarks": 16,
+    "conflicts_dropped": 0
+  }
 }
