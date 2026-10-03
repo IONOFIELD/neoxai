@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T10:43:59.785Z",
+  "generatedAt": "2026-10-03T10:03:01.507Z",
   "sources": [
     {
       "id": "huggingface",
@@ -9,7 +9,7 @@
     {
       "id": "openneuro",
       "ok": true,
-      "count": 16
+      "count": 17
     },
     {
       "id": "physionet",
@@ -102,6 +102,45 @@
       "updatedAt": "2021-01-01T00:00:00.000Z",
       "modality": [
         "EEG"
+      ]
+    },
+    {
+      "id": "openneuro:ds008896",
+      "name": "Preprocessed EEG data in CLN3 disease and NIH healthy volunteers",
+      "owner": "OpenNeuro",
+      "url": "https://openneuro.org/datasets/ds008896",
+      "source": "openneuro",
+      "description": "Preprocessed EEG data in CLN3 disease and NIH healthy volunteers",
+      "tags": [
+        "BIDS",
+        "eeg"
+      ],
+      "license": "CC0",
+      "downloads": null,
+      "likes": null,
+      "updatedAt": "2026-10-02T19:25:07.659Z",
+      "modality": [
+        "EEG"
+      ]
+    },
+    {
+      "id": "openneuro:ds008894",
+      "name": "Attentional bias to death-related stimuli: Modeling cortical dynamics underlying suicide risk",
+      "owner": "OpenNeuro",
+      "url": "https://openneuro.org/datasets/ds008894",
+      "source": "openneuro",
+      "description": "Attentional bias to death-related stimuli: Modeling cortical dynamics underlying suicide risk",
+      "tags": [
+        "BIDS",
+        "meg",
+        "mri"
+      ],
+      "license": "CC0",
+      "downloads": null,
+      "likes": null,
+      "updatedAt": "2026-09-30T21:04:15.293Z",
+      "modality": [
+        "MEG"
       ]
     },
     {
@@ -316,44 +355,6 @@
       ]
     },
     {
-      "id": "openneuro:ds008730",
-      "name": "Flavors of Reward Positivity: Testing the Psychometric Properties of Tasks used to Elicit the Reward Positivity in Healthy Individuals",
-      "owner": "OpenNeuro",
-      "url": "https://openneuro.org/datasets/ds008730",
-      "source": "openneuro",
-      "description": "Flavors of Reward Positivity: Testing the Psychometric Properties of Tasks used to Elicit the Reward Positivity in Healthy Individuals",
-      "tags": [
-        "BIDS",
-        "eeg"
-      ],
-      "license": "CC0",
-      "downloads": null,
-      "likes": null,
-      "updatedAt": "2026-08-26T15:08:50.392Z",
-      "modality": [
-        "EEG"
-      ]
-    },
-    {
-      "id": "openneuro:ds008725",
-      "name": "Memtrain MEG",
-      "owner": "OpenNeuro",
-      "url": "https://openneuro.org/datasets/ds008725",
-      "source": "openneuro",
-      "description": "Memtrain MEG",
-      "tags": [
-        "BIDS",
-        "meg"
-      ],
-      "license": "CC0",
-      "downloads": null,
-      "likes": null,
-      "updatedAt": "2026-08-25T16:18:36.899Z",
-      "modality": [
-        "MEG"
-      ]
-    },
-    {
       "id": "hf:raei/Schalk-2009-EEGMotorMovementImagery",
       "name": "Schalk-2009-EEGMotorMovementImagery",
       "owner": "raei",
@@ -371,7 +372,7 @@
         "motor-imagery"
       ],
       "license": "odc-by",
-      "downloads": 14935,
+      "downloads": 14942,
       "likes": 0,
       "updatedAt": "2026-09-03T12:21:18.000Z",
       "modality": [
@@ -396,7 +397,7 @@
         "brain-computer-interface"
       ],
       "license": "cc-by-4.0",
-      "downloads": 954,
+      "downloads": 962,
       "likes": 0,
       "updatedAt": "2026-09-29T03:39:18.000Z",
       "modality": [
@@ -421,7 +422,7 @@
         "neurotechnology"
       ],
       "license": "cc-by-4.0",
-      "downloads": 271,
+      "downloads": 274,
       "likes": 0,
       "updatedAt": "2026-10-01T14:59:23.000Z",
       "modality": [
@@ -446,7 +447,7 @@
         "eeg"
       ],
       "license": "cc-by-nc-sa-4.0",
-      "downloads": 231,
+      "downloads": 243,
       "likes": 1,
       "updatedAt": "2026-09-29T21:10:37.000Z",
       "modality": [
@@ -467,7 +468,7 @@
         "chb-mit"
       ],
       "license": "other",
-      "downloads": 39,
+      "downloads": 73,
       "likes": 3,
       "updatedAt": "2026-09-27T21:59:38.000Z",
       "modality": [
@@ -491,7 +492,7 @@
         "bciciv-2a"
       ],
       "license": "other",
-      "downloads": 116,
+      "downloads": 118,
       "likes": 0,
       "updatedAt": "2026-09-24T06:21:41.000Z",
       "modality": [
@@ -509,7 +510,7 @@
         "afl-3.0"
       ],
       "license": "afl-3.0",
-      "downloads": 127,
+      "downloads": 128,
       "likes": 1,
       "updatedAt": "2026-09-18T07:58:35.000Z",
       "modality": [
@@ -559,7 +560,7 @@
         "desktop-application"
       ],
       "license": "mit",
-      "downloads": 170,
+      "downloads": 166,
       "likes": 0,
       "updatedAt": "2026-09-09T17:57:01.000Z",
       "modality": [
@@ -633,7 +634,7 @@
         "doi:10.57967/hf/8132"
       ],
       "license": "cc-by-4.0",
-      "downloads": 816,
+      "downloads": 819,
       "likes": 0,
       "updatedAt": "2026-04-28T14:57:22.000Z",
       "modality": [
@@ -692,7 +693,7 @@
       "description": "README &nbsp;EEG Data and Analysis Results ## 1. Overview This repository contains preprocessed EEG data and analysis results associated with: Gnodde, S. C., Aslanov, V., Hogan, A., Francken, J. C., Olcese, U., &amp; Stein, T. &ldquo;Subjective visibility enhances early posterio…",
       "tags": [],
       "license": "cc-by-4.0",
-      "downloads": 2,
+      "downloads": 4,
       "likes": null,
       "updatedAt": "2026-09-30T00:00:00.000Z",
       "modality": [
@@ -933,7 +934,7 @@
       "license": "NOASSERTION",
       "downloads": null,
       "likes": 5,
-      "updatedAt": "2026-10-02T06:23:55.000Z",
+      "updatedAt": "2026-10-03T06:24:03.000Z",
       "modality": [
         "EEG"
       ]
