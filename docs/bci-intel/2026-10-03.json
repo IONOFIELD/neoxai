@@ -48,5 +48,17 @@
       "raw_excerpt": "The purpose of this research is to test the effectiveness of a new therapy, called Brain-Computer Interface (BCI)-Transcutaneous Spinal Cord Stimulation (TSCS), for improving walking in people with an incomplete spinal cord injury (SCI).",
       "fetched_at": "2026-10-03T02:41:29.287337+00:00"
     }
-  ]
+  ],
+  "stats": {
+    "fetched": 70,
+    "llm_rows": 28,
+    "kept": 12,
+    "llm_failed": false,
+    "llm_skipped_batches": 1,
+    "prefiltered": 51,
+    "intel": 1,
+    "tutorials": 5,
+    "benchmarks": 15,
+    "conflicts_dropped": 0
+  }
 }
