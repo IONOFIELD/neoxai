@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T10:03:01.507Z",
+  "generatedAt": "2026-10-04T10:45:12.811Z",
   "sources": [
     {
       "id": "huggingface",
@@ -19,12 +19,12 @@
     {
       "id": "zenodo",
       "ok": true,
-      "count": 18
+      "count": 17
     },
     {
       "id": "github",
       "ok": true,
-      "count": 9
+      "count": 8
     }
   ],
   "items": [
@@ -355,6 +355,25 @@
       ]
     },
     {
+      "id": "openneuro:ds008730",
+      "name": "Flavors of Reward Positivity: Testing the Psychometric Properties of Tasks used to Elicit the Reward Positivity in Healthy Individuals",
+      "owner": "OpenNeuro",
+      "url": "https://openneuro.org/datasets/ds008730",
+      "source": "openneuro",
+      "description": "Flavors of Reward Positivity: Testing the Psychometric Properties of Tasks used to Elicit the Reward Positivity in Healthy Individuals",
+      "tags": [
+        "BIDS",
+        "eeg"
+      ],
+      "license": "CC0",
+      "downloads": null,
+      "likes": null,
+      "updatedAt": "2026-08-26T15:08:50.392Z",
+      "modality": [
+        "EEG"
+      ]
+    },
+    {
       "id": "hf:raei/Schalk-2009-EEGMotorMovementImagery",
       "name": "Schalk-2009-EEGMotorMovementImagery",
       "owner": "raei",
@@ -372,9 +391,34 @@
         "motor-imagery"
       ],
       "license": "odc-by",
-      "downloads": 14942,
+      "downloads": 15015,
       "likes": 0,
       "updatedAt": "2026-09-03T12:21:18.000Z",
+      "modality": [
+        "EEG"
+      ]
+    },
+    {
+      "id": "hf:aspire-osu/maestro-eeg-dataset",
+      "name": "maestro-eeg-dataset",
+      "owner": "aspire-osu",
+      "url": "https://huggingface.co/datasets/aspire-osu/maestro-eeg-dataset",
+      "source": "huggingface",
+      "description": "MAESTRO — a Multimodal EEG Auditory-Attention-Decoding Dataset MAESTRO recording setup. MAESTRO is a multimodal auditory-attention-decoding (AAD) dataset collected at The Ohio State University (OSU). In each trial a listener hears several talkers speaking at once from fixed loca…",
+      "tags": [
+        "audio-classification",
+        "time-series-forecasting",
+        "cc-by-nc-sa-4.0",
+        "audiofolder",
+        "audio",
+        "video",
+        "arxiv:2609.31898",
+        "eeg"
+      ],
+      "license": "cc-by-nc-sa-4.0",
+      "downloads": 1099,
+      "likes": 1,
+      "updatedAt": "2026-09-29T21:10:37.000Z",
       "modality": [
         "EEG"
       ]
@@ -397,7 +441,7 @@
         "brain-computer-interface"
       ],
       "license": "cc-by-4.0",
-      "downloads": 962,
+      "downloads": 974,
       "likes": 0,
       "updatedAt": "2026-09-29T03:39:18.000Z",
       "modality": [
@@ -422,34 +466,9 @@
         "neurotechnology"
       ],
       "license": "cc-by-4.0",
-      "downloads": 274,
+      "downloads": 325,
       "likes": 0,
-      "updatedAt": "2026-10-01T14:59:23.000Z",
-      "modality": [
-        "EEG"
-      ]
-    },
-    {
-      "id": "hf:aspire-osu/maestro-eeg-dataset",
-      "name": "maestro-eeg-dataset",
-      "owner": "aspire-osu",
-      "url": "https://huggingface.co/datasets/aspire-osu/maestro-eeg-dataset",
-      "source": "huggingface",
-      "description": "MAESTRO — a Multimodal EEG Auditory-Attention-Decoding Dataset MAESTRO recording setup. MAESTRO is a multimodal auditory-attention-decoding (AAD) dataset collected at The Ohio State University (OSU). In each trial a listener hears several talkers speaking at once from fixed loca…",
-      "tags": [
-        "audio-classification",
-        "time-series-forecasting",
-        "cc-by-nc-sa-4.0",
-        "audiofolder",
-        "audio",
-        "video",
-        "arxiv:2609.31898",
-        "eeg"
-      ],
-      "license": "cc-by-nc-sa-4.0",
-      "downloads": 243,
-      "likes": 1,
-      "updatedAt": "2026-09-29T21:10:37.000Z",
+      "updatedAt": "2026-10-03T16:56:44.000Z",
       "modality": [
         "EEG"
       ]
@@ -468,9 +487,52 @@
         "chb-mit"
       ],
       "license": "other",
-      "downloads": 73,
+      "downloads": 79,
       "likes": 3,
       "updatedAt": "2026-09-27T21:59:38.000Z",
+      "modality": [
+        "EEG"
+      ]
+    },
+    {
+      "id": "hf:windwerfer/neurofeed-eeg-windows",
+      "name": "neurofeed-eeg-windows",
+      "owner": "windwerfer",
+      "url": "https://huggingface.co/datasets/windwerfer/neurofeed-eeg-windows",
+      "source": "huggingface",
+      "description": "Neurofeed EEG Windows Derived 2-second @ 256 Hz EEG windows for training and evaluating Muse- and Crown-oriented models. This is not raw clinical EEG, and it is not a mirror of OpenNeuro or PhysioNet recordings. Repo: windwerfer/neurofeed-eeg-windows What you get Each config fol…",
+      "tags": [
+        "eeg",
+        "muse",
+        "neurosity-crown",
+        "bci",
+        "time-series",
+        "sleep",
+        "attention",
+        "engagement"
+      ],
+      "license": "other",
+      "downloads": 153,
+      "likes": 0,
+      "updatedAt": "2026-09-23T12:41:59.000Z",
+      "modality": [
+        "EEG"
+      ]
+    },
+    {
+      "id": "hf:sigmanova/synthetic_data_for_eeg",
+      "name": "synthetic_data_for_eeg",
+      "owner": "sigmanova",
+      "url": "https://huggingface.co/datasets/sigmanova/synthetic_data_for_eeg",
+      "source": "huggingface",
+      "description": "Synthetic data for EEG This repo contains all the new datasets introduced and used for our paper \"On the impact of synthetic data for EEG foundation models pretraining\". Those synthetic datasets where generated using the code avaialable here [https://github.com/JibrilEl/syntheti…",
+      "tags": [
+        "afl-3.0"
+      ],
+      "license": "afl-3.0",
+      "downloads": 132,
+      "likes": 1,
+      "updatedAt": "2026-09-18T07:58:35.000Z",
       "modality": [
         "EEG"
       ]
@@ -492,27 +554,9 @@
         "bciciv-2a"
       ],
       "license": "other",
-      "downloads": 118,
+      "downloads": 119,
       "likes": 0,
       "updatedAt": "2026-09-24T06:21:41.000Z",
-      "modality": [
-        "EEG"
-      ]
-    },
-    {
-      "id": "hf:sigmanova/synthetic_data_for_eeg",
-      "name": "synthetic_data_for_eeg",
-      "owner": "sigmanova",
-      "url": "https://huggingface.co/datasets/sigmanova/synthetic_data_for_eeg",
-      "source": "huggingface",
-      "description": "Synthetic data for EEG This repo contains all the new datasets introduced and used for our paper \"On the impact of synthetic data for EEG foundation models pretraining\". Those synthetic datasets where generated using the code avaialable here [https://github.com/JibrilEl/syntheti…",
-      "tags": [
-        "afl-3.0"
-      ],
-      "license": "afl-3.0",
-      "downloads": 128,
-      "likes": 1,
-      "updatedAt": "2026-09-18T07:58:35.000Z",
       "modality": [
         "EEG"
       ]
@@ -535,7 +579,7 @@
         "bci-competition"
       ],
       "license": "cc-by-nd-4.0",
-      "downloads": 108,
+      "downloads": 110,
       "likes": 0,
       "updatedAt": "2026-09-24T11:39:18.000Z",
       "modality": [
@@ -560,34 +604,9 @@
         "desktop-application"
       ],
       "license": "mit",
-      "downloads": 166,
+      "downloads": 167,
       "likes": 0,
       "updatedAt": "2026-09-09T17:57:01.000Z",
-      "modality": [
-        "EEG"
-      ]
-    },
-    {
-      "id": "hf:windwerfer/neurofeed-eeg-windows",
-      "name": "neurofeed-eeg-windows",
-      "owner": "windwerfer",
-      "url": "https://huggingface.co/datasets/windwerfer/neurofeed-eeg-windows",
-      "source": "huggingface",
-      "description": "Neurofeed EEG Windows Derived 2-second @ 256 Hz EEG windows for training and evaluating Muse- and Crown-oriented models. This is not raw clinical EEG, and it is not a mirror of OpenNeuro or PhysioNet recordings. Repo: windwerfer/neurofeed-eeg-windows What you get Each config fol…",
-      "tags": [
-        "eeg",
-        "muse",
-        "neurosity-crown",
-        "bci",
-        "time-series",
-        "sleep",
-        "attention",
-        "engagement"
-      ],
-      "license": "other",
-      "downloads": 91,
-      "likes": 0,
-      "updatedAt": "2026-09-23T12:41:59.000Z",
       "modality": [
         "EEG"
       ]
@@ -609,7 +628,7 @@
         "benchmark"
       ],
       "license": "cc-by-4.0",
-      "downloads": 53,
+      "downloads": 56,
       "likes": 0,
       "updatedAt": "2026-09-26T08:47:25.000Z",
       "modality": [
@@ -617,55 +636,25 @@
       ]
     },
     {
-      "id": "hf:sulagnasaharasha/bci-temporal",
-      "name": "bci-temporal",
-      "owner": "sulagnasaharasha",
-      "url": "https://huggingface.co/datasets/sulagnasaharasha/bci-temporal",
+      "id": "hf:Yvhang009/eeg-fmri-ds006040-derived",
+      "name": "eeg-fmri-ds006040-derived",
+      "owner": "Yvhang009",
+      "url": "https://huggingface.co/datasets/Yvhang009/eeg-fmri-ds006040-derived",
       "source": "huggingface",
-      "description": "BCI Temporal Crown Dataset A multi-temporal, multi-modal dataset of tropical tree crowns from Barro Colorado Island (BCI), Panama. Each tree is observed across 16 acquisition dates spanning June 2024 – September 2025, paired with a ground-level close-up photograph. Dataset Summa…",
+      "description": "EEG-fMRI ds006040 standardized derivatives This public development dataset is the persistent, versioned data layer for an external NeuroBOLT replication on OpenNeuro ds006040. The repository does not mirror the complete OpenNeuro dataset. OpenNeuro is the authoritative raw-data…",
       "tags": [
-        "image-classification",
-        "image-to-image",
-        "cc-by-4.0",
-        "optimized-parquet",
-        "image",
-        "geospatial",
-        "arxiv:2604.23019",
-        "doi:10.57967/hf/8132"
+        "cc0-1.0",
+        "eeg",
+        "fmri",
+        "neuroimaging",
+        "neurobolt"
       ],
-      "license": "cc-by-4.0",
-      "downloads": 819,
+      "license": "cc0-1.0",
+      "downloads": 202,
       "likes": 0,
-      "updatedAt": "2026-04-28T14:57:22.000Z",
+      "updatedAt": "2026-08-22T20:32:43.000Z",
       "modality": [
         "EEG"
-      ]
-    },
-    {
-      "id": "github:mne-tools/mne-bids",
-      "name": "mne-bids",
-      "owner": "mne-tools",
-      "url": "https://github.com/mne-tools/mne-bids",
-      "source": "github",
-      "description": "MNE-BIDS is a Python package that allows you to read and write BIDS-compatible datasets with the help of MNE-Python.",
-      "tags": [
-        "bids",
-        "eeg",
-        "electroencephalography",
-        "ieeg",
-        "magnetoencephalography",
-        "meg",
-        "mne",
-        "neuroimaging"
-      ],
-      "license": "BSD-3-Clause",
-      "downloads": null,
-      "likes": 182,
-      "updatedAt": "2026-09-30T17:49:42.000Z",
-      "modality": [
-        "EEG",
-        "MEG",
-        "iEEG"
       ]
     },
     {
@@ -677,7 +666,7 @@
       "description": "This record documents a pilot randomized controlled trial investigating whether combining real-time EEG neurofeedback with normobaric hypoxia can improve post-exercise neuromuscular recovery in elite male judokas from the Polish National Judo Senior Team. &nbsp; Eight internatio…",
       "tags": [],
       "license": "cc-by-4.0",
-      "downloads": 151,
+      "downloads": 152,
       "likes": null,
       "updatedAt": "2026-09-20T00:00:00.000Z",
       "modality": [
@@ -902,22 +891,6 @@
       ]
     },
     {
-      "id": "github:yjmantilla/sovabids",
-      "name": "sovabids",
-      "owner": "yjmantilla",
-      "url": "https://github.com/yjmantilla/sovabids",
-      "source": "github",
-      "description": "A python package for the automatic conversion of EEG datasets to the BIDS standard, with a focus on making the most out of metadata.",
-      "tags": [],
-      "license": "BSD-3-Clause",
-      "downloads": null,
-      "likes": 13,
-      "updatedAt": "2026-10-01T05:11:08.000Z",
-      "modality": [
-        "EEG"
-      ]
-    },
-    {
       "id": "github:neowalter/neoxai",
       "name": "neoxai",
       "owner": "neowalter",
@@ -934,7 +907,7 @@
       "license": "NOASSERTION",
       "downloads": null,
       "likes": 5,
-      "updatedAt": "2026-10-03T06:24:03.000Z",
+      "updatedAt": "2026-10-04T03:07:53.000Z",
       "modality": [
         "EEG"
       ]
@@ -958,6 +931,31 @@
       "downloads": null,
       "likes": 3,
       "updatedAt": "2026-10-01T16:03:32.000Z",
+      "modality": [
+        "EEG"
+      ]
+    },
+    {
+      "id": "github:Core-Creates/awesome-eeg-software",
+      "name": "awesome-eeg-software",
+      "owner": "Core-Creates",
+      "url": "https://github.com/Core-Creates/awesome-eeg-software",
+      "source": "github",
+      "description": "Curated, verified list of open-source EEG software: EEGLAB, MNE-Python, Brainstorm, FieldTrip, BCI/deep learning, sleep & clinical tools, datasets.",
+      "tags": [
+        "awesome",
+        "awesome-list",
+        "bci",
+        "brainstorm",
+        "eeg",
+        "eeglab",
+        "electrophysiology",
+        "fieldtrip"
+      ],
+      "license": "CC0-1.0",
+      "downloads": null,
+      "likes": 0,
+      "updatedAt": "2026-10-04T00:40:34.000Z",
       "modality": [
         "EEG"
       ]
