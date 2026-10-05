@@ -8,6 +8,7 @@ curated by `info-agent` and published bilingually.
 
 | 日期 Date | 类型速览 Types | 条目 Items |
 |-----------|----------------|-----------|
+| [2026-10-05](./2026-10-05.md) | News、Project、Tutorial | 12 |
 | [2026-10-04](./2026-10-04.md) | Project、Tutorial | 12 |
 | [2026-10-03](./2026-10-03.md) | Project、Tutorial | 12 |
 | [2026-10-02](./2026-10-02.md) | Benchmark、Project、Tutorial | 12 |

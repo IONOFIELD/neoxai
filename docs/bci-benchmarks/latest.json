@@ -1,32 +1,357 @@
 {
-  "date": "2026-10-04",
-  "generated_at": "2026-10-04T03:07:47.318511+00:00",
+  "date": "2026-10-05",
+  "generated_at": "2026-10-05T02:40:10.659708+00:00",
   "item_count": 40,
   "types": {
     "Benchmark": 40
   },
   "highlights": [
     {
-      "title_zh": "脑电运动与想象数据集 v1.0.0",
-      "title_en": "EEG Motor Movement/Imagery Dataset v1.0.0",
-      "url": "https://physionet.org/content/eegmmidb/1.0.0/",
-      "brief": "PhysioNet脑电运动/想象数据集，用于非侵入式BCI算法评测。"
+      "title_zh": "[NeuroTechX/MOABB] W41数据集评审：记录今日30个NEMAR待审ID；Thapa2025会话说明 (#1219)",
+      "title_en": "[NeuroTechX/MOABB] Dataset review W41: record today's 30 NEMAR deposits as pending ids; Thapa2025 session note (#1219)",
+      "url": "https://github.com/NeuroTechX/moabb/commit/d7e0951120b4f8c837fb8def80dfdd49037f58af",
+      "brief": "MOABB记录30个NEMAR待审数据集并补充Thapa2025会话例外，完善EEG基准注册。"
     },
     {
-      "title_zh": "脑电心理算术任务数据集 v1.0.0",
-      "title_en": "EEG During Mental Arithmetic Tasks v1.0.0",
-      "url": "https://physionet.org/content/eegmat/1.0.0/",
-      "brief": "PhysioNet脑电心理算术数据集，支持非侵入式BCI认知任务评测。"
+      "title_zh": "[NeuroTechX/MOABB] 修复BIDS写入器：转义acq-calibration/-crosstalk；MILimbEEG NaN头 (#1218)",
+      "title_en": "[NeuroTechX/MOABB] FIX bids writer: escape acq-calibration/-crosstalk; MILimbEEG NaN header (#1218)",
+      "url": "https://github.com/NeuroTechX/moabb/commit/522f05571ab761b5ce54fbe3d9381d16a5fa67fe",
+      "brief": "MOABB修复BIDS写入器保留字段转义与MILimbEEG加载，保障数据集转换。"
     },
     {
-      "title_zh": "清华大学脑机接口研究组资料下载页",
-      "title_en": "Tsinghua University BCI Research Group Download Page",
-      "url": "http://bci.med.tsinghua.edu.cn/download.html",
-      "brief": "清华脑机接口组下载页，提供SSVEP/BETA等非侵入式BCI基准数据。"
+      "title_zh": "[NeuroTechX/MOABB] TST移除过期SSVEP分类器xfail标记 (#1215)",
+      "title_en": "[NeuroTechX/MOABB] TST remove stale SSVEP classifier xfails (#1215)",
+      "url": "https://github.com/NeuroTechX/moabb/commit/71d7f013313e4ef8ec5a25712bb184a21391a544",
+      "brief": "MOABB移除过期SSVEP分类器xfail标记，使测试更准确。"
     }
   ],
   "github_path": "docs/bci-benchmarks/latest.json",
   "items": [
+    {
+      "type": "Benchmark",
+      "level": "Advanced",
+      "title_zh": "[NeuroTechX/MOABB] W41数据集评审：记录今日30个NEMAR待审ID；Thapa2025会话说明 (#1219)",
+      "title_en": "[NeuroTechX/MOABB] Dataset review W41: record today's 30 NEMAR deposits as pending ids; Thapa2025 session note (#1219)",
+      "bullets_zh": [
+        "MOABB数据集评审在2026年10月4日将30个NEMAR提交记录为待审ID。",
+        "补充Thapa2025的sub-02/sub-17单会话例外说明。",
+        "包含论文审计与BIDS接收机器人上下文，用于描述符更新。"
+      ],
+      "bullets_en": [
+        "MOABB dataset review records 30 NEMAR deposits as pending IDs on Oct 4, 2026.",
+        "Adds a Thapa2025 session note for the sub-02/sub-17 single-session exception.",
+        "Includes paper audit and BIDS receipt bot context for descriptor updates."
+      ],
+      "url": "https://github.com/NeuroTechX/moabb/commit/d7e0951120b4f8c837fb8def80dfdd49037f58af",
+      "published": "2026-10-04T20:06:38Z",
+      "source": "benchmark",
+      "brief": "MOABB记录30个NEMAR待审数据集并补充Thapa2025会话例外，完善EEG基准注册。",
+      "language": "en",
+      "tags": [
+        "moabb",
+        "benchmark",
+        "nemar",
+        "bids",
+        "dataset-review",
+        "eeg"
+      ],
+      "brief_en": "MOABB records 30 pending NEMAR deposits and a Thapa2025 session exception, improving EEG benchmark registry.",
+      "raw_excerpt": "Dataset review W41: record today's 30 NEMAR deposits as pending ids; Thapa2025 session note (#1219) * test(nemar): record today's deposits as pending ids * docs(Thapa2025): note sub-02/sub-17 single-session exception Paper audit (2026-10-04): the dataset descriptor and Voyager NEMAR BIDS receipt both confirm sub-02 and sub-17 stopped after one session by preference, while the rest have 2-3; the do",
+      "fetched_at": "2026-10-05T02:40:10.645392+00:00"
+    },
+    {
+      "type": "Benchmark",
+      "level": "Advanced",
+      "title_zh": "[NeuroTechX/MOABB] 修复BIDS写入器：转义acq-calibration/-crosstalk；MILimbEEG NaN头 (#1218)",
+      "title_en": "[NeuroTechX/MOABB] FIX bids writer: escape acq-calibration/-crosstalk; MILimbEEG NaN header (#1218)",
+      "bullets_zh": [
+        "修复BIDS写入器对保留字段acq-calibration和acq-crosstalk的处理。",
+        "解决NEMAR提交中MILimbEEG因NaN头导致的加载失败。",
+        "解除Wang2025、Leeuwis2021和MILimbEEG的MOABB转BIDS转换阻塞。"
+      ],
+      "bullets_en": [
+        "Fixes BIDS writer handling of reserved acq-calibration and acq-crosstalk fields.",
+        "Addresses MILimbEEG loader failure caused by a NaN header in NEMAR deposits.",
+        "Unblocks MOABB-to-BIDS conversion for Wang2025, Leeuwis2021, and MILimbEEG."
+      ],
+      "url": "https://github.com/NeuroTechX/moabb/commit/522f05571ab761b5ce54fbe3d9381d16a5fa67fe",
+      "published": "2026-10-04T20:03:30Z",
+      "source": "benchmark",
+      "brief": "MOABB修复BIDS写入器保留字段转义与MILimbEEG加载，保障数据集转换。",
+      "language": "en",
+      "tags": [
+        "moabb",
+        "benchmark",
+        "bids",
+        "milimbeeg",
+        "bugfix"
+      ],
+      "brief_en": "MOABB fixes BIDS writer escaping and MILimbEEG NaN-header loading to keep dataset conversion working.",
+      "raw_excerpt": "FIX bids writer: escape acq-calibration/-crosstalk; MILimbEEG NaN header (#1218) Two post-#1217 convert blockers surfaced on NEMAR deposits of Wang2025, Leeuwis2021 (writer) and MILimbEEG (loader). 1. bids_interface.run_moabb_to_bids / run_bids_to_moabb mne-bids reserves acq-calibration and acq-crosstalk for MEG fine-calibration/crosstalk sidecar files and rejects a BIDSPath that pairs one of thes",
+      "fetched_at": "2026-10-05T02:40:10.645392+00:00"
+    },
+    {
+      "type": "Benchmark",
+      "level": "Advanced",
+      "title_zh": "[NeuroTechX/MOABB] TST移除过期SSVEP分类器xfail标记 (#1215)",
+      "title_en": "[NeuroTechX/MOABB] TST remove stale SSVEP classifier xfails (#1215)",
+      "bullets_zh": [
+        "移除MOABB测试中过期的SSVEP分类器预期失败标记。",
+        "使测试套件与当前分类器行为保持一致。",
+        "减少代码变更后遗留xfail条目造成的噪声。"
+      ],
+      "bullets_en": [
+        "Removes outdated expected-failure markers for SSVEP classifiers in MOABB tests.",
+        "Keeps the test suite aligned with current classifier behavior.",
+        "Reduces noise from obsolete xfail entries after code changes."
+      ],
+      "url": "https://github.com/NeuroTechX/moabb/commit/71d7f013313e4ef8ec5a25712bb184a21391a544",
+      "published": "2026-10-04T20:03:09Z",
+      "source": "benchmark",
+      "brief": "MOABB移除过期SSVEP分类器xfail标记，使测试更准确。",
+      "language": "en",
+      "tags": [
+        "moabb",
+        "ssvep",
+        "testing",
+        "benchmark"
+      ],
+      "brief_en": "MOABB removes stale SSVEP classifier xfails, keeping the benchmark test suite accurate and current.",
+      "raw_excerpt": "TST remove stale SSVEP classifier xfails (#1215) Co-authored-by: Bru",
+      "fetched_at": "2026-10-05T02:40:10.645392+00:00"
+    },
+    {
+      "type": "Benchmark",
+      "level": "Advanced",
+      "title_zh": "[NeuroTechX/MOABB] 修复跨范式保存模型路径冲突 (#1206)",
+      "title_en": "[NeuroTechX/MOABB] Fix saved model path collisions across paradigms (#1206)",
+      "bullets_zh": [
+        "按范式和后缀命名MOABB保存模型路径，避免路径冲突。",
+        "新增测试验证范式作用域内的模型保存与加载示例。",
+        "记录保存模型路径迁移说明，帮助用户升级流程。"
+      ],
+      "bullets_en": [
+        "Namespaces saved MOABB models by paradigm and suffix to avoid path collisions.",
+        "Adds tests verifying paradigm-scoped model saving and loading examples.",
+        "Documents the saved-model path migration for users upgrading pipelines."
+      ],
+      "url": "https://github.com/NeuroTechX/moabb/commit/ac7c01e7f79ec5d89aea6f57b0ec226c15bd77e4",
+      "published": "2026-10-04T18:35:44Z",
+      "source": "benchmark",
+      "brief": "MOABB按范式命名保存模型路径，避免跨范式冲突并更新文档。",
+      "language": "en",
+      "tags": [
+        "moabb",
+        "benchmark",
+        "model-saving",
+        "pipelines"
+      ],
+      "brief_en": "MOABB namespaces saved models by paradigm to prevent collisions and documents the migration path.",
+      "raw_excerpt": "Fix saved model path collisions across paradigms (#1206) * fix: namespace saved models by paradigm and suffix * test: verify paradigm-scoped model saving * [pre-commit.ci] auto fixes from pre-commit.com hooks * DOC explain saved-model path migration * DOC update saved-model loading example * test saved model suffix isolation --------- Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]",
+      "fetched_at": "2026-10-05T02:40:10.645392+00:00"
+    },
+    {
+      "type": "Benchmark",
+      "level": "Advanced",
+      "title_zh": "[NeuroTechX/MOABB] ENH打包参考基准流程 (#1209)",
+      "title_en": "[NeuroTechX/MOABB] ENH package reference benchmark pipelines (#1209)",
+      "bullets_zh": [
+        "在MOABB中打包参考基准流程，便于复用。",
+        "提供精选流程定义，支持可复现的BCI评测。",
+        "提升标准EEG基准工作流的可及性。"
+      ],
+      "bullets_en": [
+        "Packages reference benchmark pipelines inside MOABB for easier reuse.",
+        "Provides curated pipeline definitions for reproducible BCI evaluations.",
+        "Improves accessibility of standard EEG benchmark workflows."
+      ],
+      "url": "https://github.com/NeuroTechX/moabb/commit/a75256f762e0f41cedca319bfb27ba5168702b26",
+      "published": "2026-10-04T18:35:38Z",
+      "source": "benchmark",
+      "brief": "MOABB打包参考基准流程，提升EEG评测可复现性与易用性。",
+      "language": "en",
+      "tags": [
+        "moabb",
+        "benchmark",
+        "pipelines",
+        "reproducibility"
+      ],
+      "brief_en": "MOABB packages reference benchmark pipelines to make reproducible EEG BCI evaluations easier.",
+      "raw_excerpt": "ENH package reference benchmark pipelines (#1209) Co-authored-by: Bruno Aristimunha",
+      "fetched_at": "2026-10-05T02:40:10.645392+00:00"
+    },
+    {
+      "type": "Benchmark",
+      "level": "Advanced",
+      "title_zh": "MOABB 增强：允许顶层 CrossSubject 分割器（#1207）",
+      "title_en": "MOABB Enhancement: Allow Top-Level CrossSubject Splitters (#1207)",
+      "bullets_zh": [
+        "在MOABB中增加对顶层CrossSubject分割器的支持。",
+        "改进EEG-BCI基准测试的跨被试评估工作流。"
+      ],
+      "bullets_en": [
+        "Adds support for top-level CrossSubject splitters in MOABB.",
+        "Improves cross-subject evaluation workflows for EEG BCI benchmarks."
+      ],
+      "url": "https://github.com/NeuroTechX/moabb/commit/514c9347b31e3954bf6fbe044b680e9dbd33f500",
+      "published": "2026-10-04T17:44:22Z",
+      "source": "benchmark",
+      "brief": "MOABB更新支持跨被试评估，提升EEG-BCI基准测试灵活性。",
+      "language": "en",
+      "tags": [
+        "moabb",
+        "benchmark",
+        "eeg-bci",
+        "cross-subject"
+      ],
+      "brief_en": "MOABB update enables top-level CrossSubject splitters for more flexible EEG-BCI benchmarking.",
+      "raw_excerpt": "ENH allow top-level CrossSubject splitters (#1207) Co-authored-by: Bruno Aristimunha",
+      "fetched_at": "2026-10-05T02:40:10.645392+00:00"
+    },
+    {
+      "type": "Benchmark",
+      "level": "Advanced",
+      "title_zh": "MOABB 新增 Leelakittisin2025、PerezBlanco2026 与 Vagaja2023 归档数据集（#1199）",
+      "title_en": "MOABB Adds Leelakittisin2025, PerezBlanco2026 and Vagaja2023 Archive Datasets (#1199)",
+      "bullets_zh": [
+        "新增Leelakittisin2025、PerezBlanco2026和Vagaja2023归档数据集加载器。",
+        "扩展MOABB的非侵入式BCI评测数据集注册库。"
+      ],
+      "bullets_en": [
+        "Adds Leelakittisin2025, PerezBlanco2026 and Vagaja2023 archive dataset loaders.",
+        "Expands MOABB's registry of non-invasive BCI evaluation datasets."
+      ],
+      "url": "https://github.com/NeuroTechX/moabb/commit/c60f954bef9b790307d78dd63c3aaaa429f0a0bb",
+      "published": "2026-10-04T17:42:37Z",
+      "source": "benchmark",
+      "brief": "MOABB新增三个EEG-BCI归档数据集，扩展基准评测资源。",
+      "language": "en",
+      "tags": [
+        "moabb",
+        "benchmark",
+        "eeg-bci",
+        "datasets",
+        "archive"
+      ],
+      "brief_en": "MOABB adds three EEG-BCI archive datasets, expanding benchmark evaluation resources.",
+      "raw_excerpt": "Add Leelakittisin2025, PerezBlanco2026 and Vagaja2023 archive datasets (#1199) * Add PerezBlanco, SitStand and Vagaja archive datasets * Link archive dataset changelog to PR 1199 * test: audit and trim #1199 tests (-0 tests, coverage 77.7%->77.7%) Per-file coverage unchanged: perezblanco2026 71%, sitstand2026 83%, vagaja2023 79%. - Drop the reader call-shape asserts (preload/verbose) from the stal",
+      "fetched_at": "2026-10-05T02:40:10.645392+00:00"
+    },
+    {
+      "type": "Benchmark",
+      "level": "Advanced",
+      "title_zh": "MOABB 新增 MartinezPeon2025 握力与 MILimbEEG 想象数据集（#1198）",
+      "title_en": "MOABB Adds MartinezPeon2025 Hand-Grip and MILimbEEG Imagery Datasets (#1198)",
+      "bullets_zh": [
+        "新增MartinezPeon2025分级力握力数据集加载器。",
+        "新增面向下肢任务的MILimbEEG运动想象数据集。"
+      ],
+      "bullets_en": [
+        "Adds MartinezPeon2025 graded-force hand-grip dataset loader.",
+        "Adds MILimbEEG motor imagery dataset for lower-limb tasks."
+      ],
+      "url": "https://github.com/NeuroTechX/moabb/commit/336f6a523510e5c0c15c038f01bafab53f97ba5f",
+      "published": "2026-10-04T17:40:50Z",
+      "source": "benchmark",
+      "brief": "MOABB纳入握力和肢体运动想象EEG数据，丰富BCI评测。",
+      "language": "en",
+      "tags": [
+        "moabb",
+        "benchmark",
+        "eeg-bci",
+        "motor-imagery",
+        "hand-grip"
+      ],
+      "brief_en": "MOABB adds hand-grip and motor imagery EEG datasets, enriching BCI benchmark coverage.",
+      "raw_excerpt": "feat(datasets): add MartinezPeon2025 hand-grip and MILimbEEG imagery datasets (#1198) * feat(datasets): add graded-force and MILimbEEG imagery loaders * docs: link dataset draft PR in changelog * test: audit and trim #1198 tests (-0 tests, coverage 68.7%->68.7%) Replace the MNE-behaviour filter round-trip in test_milimb_si_and_last_window with a direct assertion that the EDGE boundary annotation s",
+      "fetched_at": "2026-10-05T02:40:10.645392+00:00"
+    },
+    {
+      "type": "Benchmark",
+      "level": "Advanced",
+      "title_zh": "MOABB 新增 Pan 跨会话与 Polo 下肢运动想象数据集（#1197）",
+      "title_en": "MOABB Adds Pan Cross-Session and Polo Lower-Limb Motor Imagery Datasets (#1197)",
+      "bullets_zh": [
+        "新增Pan跨会话运动想象数据集加载器。",
+        "向MOABB添加Polo下肢运动想象数据集。"
+      ],
+      "bullets_en": [
+        "Adds Pan cross-session motor imagery dataset loader.",
+        "Adds Polo lower-limb motor imagery dataset to MOABB."
+      ],
+      "url": "https://github.com/NeuroTechX/moabb/commit/d24005858d5e4d19814d80c8bb836dbcbeccb686",
+      "published": "2026-10-04T17:39:03Z",
+      "source": "benchmark",
+      "brief": "MOABB加入跨会话和下肢MI EEG数据，提升鲁棒性评测。",
+      "language": "en",
+      "tags": [
+        "moabb",
+        "benchmark",
+        "eeg-bci",
+        "motor-imagery",
+        "cross-session"
+      ],
+      "brief_en": "MOABB adds cross-session and lower-limb motor imagery EEG datasets for robustness evaluation.",
+      "raw_excerpt": "feat(datasets): add Pan cross-session and Polo lower-limb MI datasets (#1197) * feat(datasets): add Pan cross-session and Polo lower-limb MI loaders * docs: link dataset draft PR in changelog * test: audit and trim #1197 tests (-0 tests, coverage 68.8%->68.8%) Replace the MNE-behaviour filter round-trip in test_stored_windows with a direct assertion that the EDGE boundary annotation sits at the st",
+      "fetched_at": "2026-10-05T02:40:10.645392+00:00"
+    },
+    {
+      "type": "Benchmark",
+      "level": "Advanced",
+      "title_zh": "MOABB 新增 WRCC2023 与 MIMED2024 运动想象数据集（#1196）",
+      "title_en": "MOABB Adds WRCC2023 and MIMED2024 Motor Imagery Datasets (#1196)",
+      "bullets_zh": [
+        "新增WRCC2023运动想象数据集加载器。",
+        "向MOABB添加MIMED2024运动想象数据集。"
+      ],
+      "bullets_en": [
+        "Adds WRCC2023 motor imagery dataset loader.",
+        "Adds MIMED2024 motor imagery dataset to MOABB."
+      ],
+      "url": "https://github.com/NeuroTechX/moabb/commit/4cc95b09e8e872649e850220b95d2f3a5829d529",
+      "published": "2026-10-04T17:37:16Z",
+      "source": "benchmark",
+      "brief": "MOABB纳入两个MI EEG基准数据，扩展公开评测集。",
+      "language": "en",
+      "tags": [
+        "moabb",
+        "benchmark",
+        "eeg-bci",
+        "motor-imagery"
+      ],
+      "brief_en": "MOABB adds two motor imagery EEG benchmark datasets, expanding public evaluation sets.",
+      "raw_excerpt": "Add WRCC2023 and MIMED2024 motor imagery datasets (#1196) * Add draft WRCC and MIMED motor imagery loaders with isolated trials * Link WRCC and MIMED changelog to PR 1196 * test: audit and trim #1196 tests (-6 tests, coverage 87.0%->87.0%) Per-file coverage unchanged: wirawan2024 83%, wrcc2023_mi_a 87%, wrcc2023_mi_b 89%, wrcc2023_mi_c 89%. - Reduce the invalid-label matrix to one case per branch",
+      "fetched_at": "2026-10-05T02:40:10.645392+00:00"
+    },
+    {
+      "type": "Benchmark",
+      "level": "Advanced",
+      "title_zh": "MOABB 新增大规模运动数据集：NeBULA2025、MIND、MOVING 与 Thapa（#1195）",
+      "title_en": "MOABB Adds Large-Recording Motor Datasets: NeBULA2025, MIND, MOVING and Thapa (#1195)",
+      "bullets_zh": [
+        "新增NeBULA2025、MIND、MOVING和Thapa运动任务数据集加载器。",
+        "为大规模记录BCI评估提供离线回归测试。"
+      ],
+      "bullets_en": [
+        "Adds NeBULA2025, MIND, MOVING and Thapa motor task dataset loaders.",
+        "Provides offline regressions for large-recording BCI evaluation."
+      ],
+      "url": "https://github.com/NeuroTechX/moabb/commit/3eba40536da912284773daa4586e5dda8b45fd0c",
+      "published": "2026-10-04T17:35:29Z",
+      "source": "benchmark",
+      "brief": "MOABB加入四个大规模运动EEG数据，增强大样本评测。",
+      "language": "en",
+      "tags": [
+        "moabb",
+        "benchmark",
+        "eeg-bci",
+        "motor-task",
+        "large-datasets"
+      ],
+      "brief_en": "MOABB adds four large-recording motor EEG datasets, strengthening large-sample benchmarking.",
+      "raw_excerpt": "Add large-recording motor datasets: NeBULA2025, MIND, MOVING and Thapa (#1195) * Add four large-recording motor task datasets with offline regressions * Link large motor dataset changelog to draft PR 1195 * test: audit and trim #1195 tests (-5 tests, coverage 72.8%->72.8%) Per-file coverage unchanged: garro2025 71%, mind2026 88%, moving2024 61%, thapa2025 71%. - Merge MIND/Thapa transport force=Fa",
+      "fetched_at": "2026-10-05T02:40:10.645392+00:00"
+    },
     {
       "type": "Benchmark",
       "level": "General",
@@ -645,35 +970,35 @@
     },
     {
       "type": "Benchmark",
-      "level": "Intermediate",
-      "title_zh": "MOABB v1.7.2 发布",
-      "title_en": "MOABB v1.7.2 Release",
+      "level": "Advanced",
+      "title_zh": "[NeuroTechX/MOABB] v1.7.2 发布",
+      "title_en": "[NeuroTechX/MOABB] v1.7.2 release",
       "bullets_zh": [
         "MOABB v1.7.2修复与pyRiemann均值API的兼容性。",
-        "它支持在pyRiemann 0.12和当前0.13开发版下拟合TRCA/TRCSP。",
-        "该版本增加了TRCSP指标与TRCA协方差处理的回归测试覆盖。"
+        "TRCA和TRCSP改用gmean并按关键字传递TRCSP metric，以支持pyRiemann 0.12/0.13-dev。",
+        "新增三个TRCSP metric和两个TRCA covariance回归测试。"
       ],
       "bullets_en": [
         "MOABB v1.7.2 fixes compatibility with pyRiemann mean APIs.",
-        "It supports TRCA/TRCSP fitting under pyRiemann 0.12 and current 0.13 development versions.",
-        "The release adds regression coverage for TRCSP metrics and TRCA covariance handling."
+        "TRCA and TRCSP now use gmean and pass the TRCSP metric by keyword for pyRiemann 0.12/0.13-dev support.",
+        "Adds regression coverage for three TRCSP metrics and two TRCA covariance cases."
       ],
       "url": "https://github.com/NeuroTechX/moabb/releases/tag/v1.7.2",
       "published": "2026-09-14T12:47:44Z",
       "source": "benchmark",
-      "brief": "MOABB v1.7.2修复pyRiemann兼容，提升BCI基准评测稳定性。",
+      "brief": "MOABB v1.7.2修复pyRiemann兼容并增强TRCA/TRCSP测试，保障EEG基准稳定。",
       "language": "en",
       "tags": [
         "moabb",
         "benchmark",
-        "trca",
-        "trcsp",
-        "pyriemann",
+        "eeg",
+        "bci",
+        "non-invasive",
         "release"
       ],
-      "brief_en": "MOABB v1.7.2 fixes pyRiemann compatibility to improve BCI benchmark evaluation stability.",
+      "brief_en": "MOABB v1.7.2 fixes pyRiemann compatibility and strengthens TRCA/TRCSP tests for stable EEG benchmarks.",
       "raw_excerpt": "MOABB 1.7.2 fixes compatibility with pyRiemann mean APIs. - Use `gmean` in TRCA and TRCSP, supporting pyRiemann 0.12 and current 0.13 development versions. - Pass the TRCSP metric by keyword to fix fitting with pyRiemann 0.12. - Add regression coverage for three TRCSP metrics and two TRCA covariance means. This patch release is based on v1.7.1 and includes the fix from [#1180](https://github.com/N",
-      "fetched_at": "2026-10-03T02:41:29.287337+00:00"
+      "fetched_at": "2026-10-05T02:40:10.645392+00:00"
     },
     {
       "type": "Benchmark",
@@ -914,345 +1239,6 @@
       "brief_en": "MOABB prepares pre-release 1.7.1, giving EEG BCI benchmark users a stable checkpoint.",
       "raw_excerpt": "Pre-release 1.7.1 (#1171)",
       "fetched_at": "2026-09-30T03:37:35.728296+00:00"
-    },
-    {
-      "type": "Benchmark",
-      "level": "General",
-      "title_zh": "MOABB 开启 1.8 开发周期",
-      "title_en": "MOABB Opens the 1.8 Development Cycle",
-      "bullets_zh": [
-        "该仓库开启 MOABB 版本 1.8 的开发。",
-        "这标志着非侵入式 BCI 基准工具链的下一轮迭代。"
-      ],
-      "bullets_en": [
-        "The repository opens development for MOABB version 1.8.",
-        "This marks the next iteration of the non-invasive BCI benchmark toolchain."
-      ],
-      "url": "https://github.com/NeuroTechX/moabb/commit/9037ff6a185559e91cb8796e9e0352f7e6c0ca27",
-      "published": "2026-08-31T16:48:21Z",
-      "source": "benchmark",
-      "brief": "MOABB 进入 1.8 开发周期，推动 EEG-BCI 基准迭代。",
-      "language": "en",
-      "tags": [
-        "moabb",
-        "benchmark",
-        "eeg-bci",
-        "release"
-      ],
-      "brief_en": "MOABB opens the 1.8 development cycle for its EEG-BCI benchmark toolchain.",
-      "raw_excerpt": "Open the 1.8 development cycle",
-      "fetched_at": "2026-09-22T13:36:13.603450+00:00"
-    },
-    {
-      "type": "Benchmark",
-      "level": "Advanced",
-      "title_zh": "MOABB v1.7.0 发布",
-      "title_en": "MOABB v1.7.0 Release",
-      "bullets_zh": [
-        "NeuroTechX于2026年8月31日发布MOABB v1.7.0。",
-        "该版本在NEMAR预取前使用完整处理缓存，修复离线缓存数据访问。",
-        "更新通过确定性布局处理使数据集气泡图可复现。"
-      ],
-      "bullets_en": [
-        "NeuroTechX released MOABB v1.7.0 on 2026-08-31.",
-        "It fixes offline cached-data access by using a complete processing cache before NEMAR prefetch.",
-        "The update makes dataset bubble plots reproducible through deterministic layout handling."
-      ],
-      "url": "https://github.com/NeuroTechX/moabb/releases/tag/v1.7.0",
-      "published": "2026-08-31T16:47:03Z",
-      "source": "benchmark",
-      "brief": "MOABB v1.7.0发布，改善离线缓存访问与BCI基准图可复现性。",
-      "language": "en",
-      "tags": [
-        "moabb",
-        "release",
-        "cache",
-        "reproducibility",
-        "bubble-plot",
-        "benchmark"
-      ],
-      "brief_en": "MOABB v1.7.0 improves offline cache access and reproducible BCI benchmark bubble plots.",
-      "raw_excerpt": "MOABB 1.7.0 fixes offline cached-data access and makes dataset bubble plots reproducible. - `BaseDataset.get_data` now uses a complete processing cache before NEMAR prefetch, so cached datasets remain usable when NEMAR or the network is unavailable. - `dataset_bubble_plot` now has reproducible layouts by default and accepts `random_state` for controlled alternatives. Full changelog: https://moabb.",
-      "fetched_at": "2026-09-30T03:37:35.728296+00:00"
-    },
-    {
-      "type": "Benchmark",
-      "level": "General",
-      "title_zh": "MOABB预发布版1.7.0",
-      "title_en": "MOABB Pre-release 1.7.0",
-      "bullets_zh": [
-        "NeuroTechX MOABB于2026年8月31日通过PR #1170标记预发布版1.7.0。",
-        "摘要指出1.7.0包含了气泡图增强功能。",
-        "它标志着基准可视化更新的早期发布。"
-      ],
-      "bullets_en": [
-        "NeuroTechX MOABB tagged pre-release 1.7.0 via PR #1170 on 2026-08-31.",
-        "The summary notes inclusion of a bubble plot enhancement in 1.7.0.",
-        "It marks an early release for benchmark visualization updates."
-      ],
-      "url": "https://github.com/NeuroTechX/moabb/commit/ee4bbac6daef1ed22bb0c9588b5a413baa7e66cf",
-      "published": "2026-08-31T16:45:26Z",
-      "source": "benchmark",
-      "brief": "MOABB发布1.7.0预发布版，包含气泡图增强。",
-      "language": "en",
-      "tags": [
-        "moabb",
-        "benchmark",
-        "release",
-        "visualization",
-        "eeg",
-        "bci"
-      ],
-      "brief_en": "MOABB releases pre-release 1.7.0 with bubble plot enhancement.",
-      "raw_excerpt": "Pre-release 1.7.0 (#1170) * Pre-release 1.7.0 * Include bubble plot enhancement in 1.7.0",
-      "fetched_at": "2026-09-29T03:47:01.462686+00:00"
-    },
-    {
-      "type": "Benchmark",
-      "level": "Advanced",
-      "title_zh": "MOABB：使数据集气泡图可复现（#1168）",
-      "title_en": "[NeuroTechX/moabb] ENH Make dataset bubble plots reproducible (#1168)",
-      "bullets_zh": [
-        "MOABB提交#1168通过用显式random_state替换全局NumPy随机状态，使数据集气泡图可复现。",
-        "固定默认值确保重复调用生成相同图形，整数种子允许受控变化。",
-        "这提高了非侵入式EEG/BCI数据集比较中基准可视化的可靠性。"
-      ],
-      "bullets_en": [
-        "MOABB commit #1168 makes dataset bubble plots reproducible by replacing global NumPy random state with explicit random_state.",
-        "A fixed default ensures repeated calls produce identical figures, while integer seeds allow controlled variation.",
-        "This improves reliability of benchmark visualizations for non-invasive EEG/BCI dataset comparisons."
-      ],
-      "url": "https://github.com/NeuroTechX/moabb/commit/99835a46a306d3d3b7924b87f835bb8a0501d141",
-      "published": "2026-08-31T16:40:19Z",
-      "source": "benchmark",
-      "brief": "MOABB更新使数据集气泡图可复现，提升EEG/BCI基准可视化可靠性。",
-      "language": "en",
-      "tags": [
-        "moabb",
-        "benchmark",
-        "eeg",
-        "bci",
-        "reproducibility"
-      ],
-      "brief_en": "MOABB update makes dataset bubble plots reproducible, improving EEG/BCI benchmark visualization reliability.",
-      "raw_excerpt": "ENH Make dataset bubble plots reproducible (#1168) ENH Make dataset bubble plots reproducible Replace the global NumPy random state used by the hexagonal subject layout with an explicit random_state parameter. Use a fixed default so repeated calls produce identical figures, while allowing integer seeds, NumPy Generators, and non-deterministic layouts through None. Add unit tests for seeded grid ge",
-      "fetched_at": "2026-09-29T03:47:01.462686+00:00"
-    },
-    {
-      "type": "Benchmark",
-      "level": "General",
-      "title_zh": "在预取 NEMAR 前使用缓存数据（#1169）",
-      "title_en": "Use cached data before prefetching NEMAR (#1169)",
-      "bullets_zh": [
-        "MOABB 提交 #1169 更新基准测试流程，在预取 NEMAR 前使用缓存数据。",
-        "该变更避免对已缓存数据集进行不必要的 NEMAR 预取，并在移除缓存后保留 NEMAR 优先行为。",
-        "其意义在于 MOABB 支持非侵入式 BCI 基准评测，尤其是基于 EEG 的工作流。"
-      ],
-      "bullets_en": [
-        "MOABB commit #1169 updates the benchmark pipeline to use cached data before prefetching NEMAR.",
-        "The change avoids unnecessary NEMAR prefetch for cached datasets and preserves NEMAR-first behavior after cache removal.",
-        "It matters because MOABB supports non-invasive BCI benchmark evaluation, especially EEG-based workflows."
-      ],
-      "url": "https://github.com/NeuroTechX/moabb/commit/465fae649aeae6671c96f86dec39f82c350091ab",
-      "published": "2026-08-31T16:16:54Z",
-      "source": "benchmark",
-      "brief": "MOABB基准更新：预取NEMAR前优先使用缓存，优化非侵入式BCI评测数据流程。",
-      "language": "en",
-      "tags": [
-        "moabb",
-        "benchmark",
-        "bci",
-        "eeg",
-        "nemar",
-        "caching"
-      ],
-      "brief_en": "MOABB benchmark update uses cached data before prefetching NEMAR to improve non-invasive BCI evaluation workflows.",
-      "raw_excerpt": "Use cached data before prefetching NEMAR (#1169) * Avoid NEMAR prefetch for cached data * Preserve NEMAR-first behavior after cache removal",
-      "fetched_at": "2026-09-23T13:56:09.139912+00:00"
-    },
-    {
-      "type": "Benchmark",
-      "level": "General",
-      "title_zh": "MOABB 开放 1.7 开发周期",
-      "title_en": "MOABB Opens the 1.7 Development Cycle",
-      "bullets_zh": [
-        "NeuroTechX/moabb 通过 GitHub 提交开放了 1.7 开发周期。",
-        "该更新支持持续维护 MOABB 的非侵入式 EEG 脑机接口基准数据集。"
-      ],
-      "bullets_en": [
-        "NeuroTechX/moabb opened the 1.7 development cycle via a GitHub commit.",
-        "The update supports ongoing maintenance of MOABB's non-invasive EEG BCI benchmark datasets."
-      ],
-      "url": "https://github.com/NeuroTechX/moabb/commit/402b3ac94a551ee1baf33c66ea155639e0ec48b7",
-      "published": "2026-08-27T07:29:57Z",
-      "source": "benchmark",
-      "brief": "MOABB 开放 1.7 开发周期，更新非侵入式脑机接口基准数据集。",
-      "language": "en",
-      "tags": [
-        "moabb",
-        "benchmark",
-        "eeg",
-        "bci",
-        "open-source"
-      ],
-      "brief_en": "MOABB opens its 1.7 development cycle, updating the non-invasive BCI benchmark dataset registry.",
-      "raw_excerpt": "Open the 1.7 development cycle",
-      "fetched_at": "2026-09-19T13:43:52.149920+00:00"
-    },
-    {
-      "type": "Benchmark",
-      "level": "Intermediate",
-      "title_zh": "MOABB v1.6.1 发布",
-      "title_en": "MOABB v1.6.1 Release",
-      "bullets_zh": [
-        "MOABB v1.6.1是自v1.6.0以来包含八条变更日志的修复版本。",
-        "该版本修复了BNCI2025_001原始EEG读取中的标签泄漏问题。",
-        "更新有助于保持MOABB数据集基准评测的可信度。"
-      ],
-      "bullets_en": [
-        "MOABB v1.6.1 is a bug-fix release with eight changelog entries since v1.6.0.",
-        "It fixes label leakage in BNCI2025_001 raw EEG reading.",
-        "The update helps maintain trustworthy benchmark evaluation on MOABB datasets."
-      ],
-      "url": "https://github.com/NeuroTechX/moabb/releases/tag/v1.6.1",
-      "published": "2026-08-27T07:13:20Z",
-      "source": "benchmark",
-      "brief": "MOABB v1.6.1修复数据标签泄漏，维护基准评测可信度。",
-      "language": "en",
-      "tags": [
-        "moabb",
-        "benchmark",
-        "eeg-bci",
-        "bugfix"
-      ],
-      "brief_en": "MOABB v1.6.1 fixes data label leakage to maintain trustworthy benchmark evaluation.",
-      "raw_excerpt": "MOABB 1.6.1 — a bug-fix release: 8 changelog entries since [v1.6.0](https://github.com/NeuroTechX/moabb/releases/tag/v1.6.0). 📖 **[Full changelog](https://moabb.neurotechx.com/docs/whats_new.html)** — this is a summary. ### The one that matters **`BNCI2025_001` was leaking its labels.** `read_raw_eeglab` types any channel it does not recognise as `eeg`, and this dataset ships seven that it does no",
-      "fetched_at": "2026-09-23T02:30:17.439428+00:00"
-    },
-    {
-      "type": "Benchmark",
-      "level": "Advanced",
-      "title_zh": "MOABB 预发布 1.6.1 版本",
-      "title_en": "MOABB pre-releases version 1.6.1",
-      "bullets_zh": [
-        "NeuroTechX MOABB 于 2026-08-27 标记了 1.6.1 预发布版本。",
-        "该提交更新了包文件、引用记录、README 和文档中的版本元数据。",
-        "它滚动更新变更日志，使 1.6.1 成为稳定版并开启 1.7 源码周期。"
-      ],
-      "bullets_en": [
-        "NeuroTechX MOABB tagged a 1.6.1 pre-release on 2026-08-27.",
-        "The commit bumps version metadata across package files, citation records, README and docs.",
-        "It rolls the changelog so 1.6.1 becomes stable while opening the 1.7 source cycle."
-      ],
-      "url": "https://github.com/NeuroTechX/moabb/commit/ad1ec68f40ff202fac5a8166620fac5adc0d9f11",
-      "published": "2026-08-27T07:12:23Z",
-      "source": "benchmark",
-      "brief": "MOABB 预发布 1.6.1，更新版本元数据并开启 1.7 周期。",
-      "language": "en",
-      "tags": [
-        "moabb",
-        "benchmark",
-        "eeg",
-        "bci",
-        "release"
-      ],
-      "brief_en": "MOABB pre-releases version 1.6.1, updating metadata and changelog while opening the next 1.7 source cycle.",
-      "raw_excerpt": "Pre-release 1.6.1 (#1167) Bump the version to 1.6.1 across moabb/__init__.py, CITATION.cff, README.md and docs/source/cite.rst, and roll the changelog: the 1.6.1 section becomes '(Stable - PyPi)' and a fresh 'Version 1.7 (Source - GitHub)' opens.",
-      "fetched_at": "2026-09-18T13:55:43.255138+00:00"
-    },
-    {
-      "type": "Benchmark",
-      "level": "General",
-      "title_zh": "MOABB 从 channel_types 派生 n_channels",
-      "title_en": "MOABB Derives n_channels from channel_types",
-      "bullets_zh": [
-        "修改 AcquisitionMetadata，使 n_channels 从 channel_types 派生。",
-        "移除可能与通道类型不一致的冗余存储字段。",
-        "提升 MOABB 数据集元数据在 BCI 基准评测中的一致性。"
-      ],
-      "bullets_en": [
-        "Changes AcquisitionMetadata to derive n_channels from channel_types.",
-        "Removes redundant stored field that could disagree with channel types.",
-        "Improves consistency of MOABB dataset metadata for BCI benchmarking."
-      ],
-      "url": "https://github.com/NeuroTechX/moabb/commit/8d3c12db1e1219a0068fa074513baeec19af6fe8",
-      "published": "2026-08-27T00:18:19Z",
-      "source": "benchmark",
-      "brief": "MOABB元数据修复，提升EEG-BCI基准数据集通道信息一致性。",
-      "language": "en",
-      "tags": [
-        "moabb",
-        "benchmark",
-        "metadata",
-        "eeg-bci",
-        "dataset-registry"
-      ],
-      "brief_en": "MOABB metadata fix improving channel-information consistency in EEG/BCI benchmark datasets.",
-      "raw_excerpt": "Derive AcquisitionMetadata.n_channels from channel_types instead of storing it (#1166) AcquisitionMetadata stored n_channels next to channel_types, which describes the same fact. The two could disagree, and for 34 of the 147 catalogued datasets they did -- because the field carried two meanings: Dreyer2023A stored 27, its EEG electrodes, while its own channel_types and its 32-entry sensors list bo",
-      "fetched_at": "2026-09-14T14:03:58.932265+00:00"
-    },
-    {
-      "type": "Benchmark",
-      "level": "Advanced",
-      "title_zh": "[NeuroTechX/moabb] 修复 BNCI2025_001 标签泄露及 NEMAR 预取防护",
-      "title_en": "[NeuroTechX/moabb] Fix label leakage in BNCI2025_001 and NEMAR prefetch guard",
-      "bullets_zh": [
-        "修复 BNCI2025_001 数据集中的关键标签泄露问题，运动学通道被错误分类为 EEG 特征。",
-        "更新 gh-700 的导联处理并实施 NEMAR 预取防护以防止数据错误。",
-        "确保使用 MOABB 框架进行非侵入式 EEG 分类任务的基准完整性。"
-      ],
-      "bullets_en": [
-        "Fixes critical label leakage in BNCI2025_001 dataset where kinematic channels were misclassified as EEG features.",
-        "Updates montage handling for gh-700 and implements NEMAR prefetch guard to prevent data errors.",
-        "Ensures benchmark integrity for non-invasive EEG classification tasks using MOABB framework."
-      ],
-      "url": "https://github.com/NeuroTechX/moabb/commit/eb8e59d824e7e0e2ea0924cbe989d0abf72f2fd3",
-      "published": "2026-08-26T23:15:58Z",
-      "source": "benchmark",
-      "brief": "MOABB 基准修复 BNCI2025_001 标签泄露，确保非侵入式 EEG 分类数据完整性。",
-      "language": "en",
-      "tags": [
-        "moabb",
-        "benchmark",
-        "eeg",
-        "dataset",
-        "leakage-fix",
-        "bnci"
-      ],
-      "brief_en": "MOABB benchmark update fixes label leakage in BNCI2025_001, ensuring data integrity for non-invasive EEG classification.",
-      "raw_excerpt": "Fix label leakage in BNCI2025_001, the montages gh-700 never shipped, and the NEMAR prefetch guard (#1161) - BNCI2025_001: type the 7 kinematic channels (target position, hand velocity) as misc. read_raw_eeglab typed them eeg, so every paradigm fed the labels to the classifier as features. EOG named explicitly so the declared channel_types is true by construction. - Rodrigues2017, Cattan2019_PHMD",
-      "fetched_at": "2026-09-06T06:16:35.135581+00:00"
-    },
-    {
-      "type": "Benchmark",
-      "level": "Advanced",
-      "title_zh": "MOABB v1.6.0 版本发布",
-      "title_en": "MOABB v1.6.0 Release",
-      "bullets_zh": [
-        "MOABB于2026年8月26日发布v1.6.0，包含来自21位贡献者的68次提交和81条更新日志。",
-        "该版本扩展了基准数据集并更新了EEG/BCI评估库。",
-        "它作为标准非侵入式BCI基准平台的重要更新而值得关注。"
-      ],
-      "bullets_en": [
-        "MOABB released v1.6.0 on 2026-08-26 with 68 commits and 81 changelog entries from 21 contributors.",
-        "The release expands benchmark datasets and updates the EEG/BCI evaluation library.",
-        "It matters as a major update to a standard non-invasive BCI benchmarking platform."
-      ],
-      "url": "https://github.com/NeuroTechX/moabb/releases/tag/v1.6.0",
-      "published": "2026-08-26T13:13:39Z",
-      "source": "benchmark",
-      "brief": "MOABB v1.6.0发布，扩展EEG/BCI基准数据集与评估库。",
-      "language": "en",
-      "tags": [
-        "benchmark",
-        "moabb",
-        "eeg",
-        "bci",
-        "release"
-      ],
-      "brief_en": "MOABB v1.6.0 expands EEG/BCI benchmark datasets and evaluation library.",
-      "raw_excerpt": "MOABB 1.6.0 — 68 commits and 81 changelog entries since [v1.5](https://github.com/NeuroTechX/moabb/releases/tag/v1.5), from 21 credited contributors. 📖 **[Full changelog](https://moabb.neurotechx.com/docs/whats_new.html)** — this is a summary. ### Highlights **Datasets.** A large expansion of the catalogue: imagined speech arrives as its own category of imagery datasets, with a dedicated documenta",
-      "fetched_at": "2026-09-23T13:56:09.139912+00:00"
     }
   ]
 }
