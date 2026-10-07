@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-06T11:30:26.917Z",
+  "generatedAt": "2026-10-07T11:20:11.805Z",
   "sources": [
     {
       "id": "huggingface",
       "ok": true,
-      "count": 60
+      "count": 61
     },
     {
       "id": "openneuro",
@@ -410,7 +410,7 @@
         "motor-imagery"
       ],
       "license": "odc-by",
-      "downloads": 14290,
+      "downloads": 15999,
       "likes": 0,
       "updatedAt": "2026-09-03T12:21:18.000Z",
       "modality": [
@@ -435,7 +435,7 @@
         "eeg"
       ],
       "license": "cc-by-nc-sa-4.0",
-      "downloads": 1346,
+      "downloads": 1737,
       "likes": 1,
       "updatedAt": "2026-09-29T21:10:37.000Z",
       "modality": [
@@ -460,7 +460,7 @@
         "brain-computer-interface"
       ],
       "license": "cc-by-4.0",
-      "downloads": 1065,
+      "downloads": 1109,
       "likes": 0,
       "updatedAt": "2026-09-29T03:39:18.000Z",
       "modality": [
@@ -485,9 +485,9 @@
         "neurotechnology"
       ],
       "license": "cc-by-4.0",
-      "downloads": 608,
+      "downloads": 902,
       "likes": 0,
-      "updatedAt": "2026-10-05T13:31:49.000Z",
+      "updatedAt": "2026-10-07T09:56:48.000Z",
       "modality": [
         "EEG"
       ]
@@ -510,9 +510,59 @@
         "neuroscience"
       ],
       "license": "odc-by",
-      "downloads": 132,
+      "downloads": 166,
       "likes": 3,
       "updatedAt": "2026-10-05T14:33:34.000Z",
+      "modality": [
+        "EEG"
+      ]
+    },
+    {
+      "id": "hf:raei/Brunner-2008-BCICompetition2008GrazDataSetA",
+      "name": "Brunner-2008-BCICompetition2008GrazDataSetA",
+      "owner": "raei",
+      "url": "https://huggingface.co/datasets/raei/Brunner-2008-BCICompetition2008GrazDataSetA",
+      "source": "huggingface",
+      "description": "BCI Competition IV Dataset 2a — Graz data set A This is an unofficial mirror of the dataset described by C. Brunner, R. Leeb, G. R. Müller-Putz, A. Schlögl, and G. Pfurtscheller (2008) at Graz University of Technology. Originally released as BCI Competition IV Dataset 2a (BCICIV…",
+      "tags": [
+        "cc-by-nd-4.0",
+        "document",
+        "neuroscience",
+        "electroencephalography",
+        "brain-computer-interface",
+        "motor-imagery",
+        "matlab",
+        "bci-competition"
+      ],
+      "license": "cc-by-nd-4.0",
+      "downloads": 257,
+      "likes": 0,
+      "updatedAt": "2026-09-24T11:39:18.000Z",
+      "modality": [
+        "EEG"
+      ]
+    },
+    {
+      "id": "hf:windwerfer/neurofeed-eeg-windows",
+      "name": "neurofeed-eeg-windows",
+      "owner": "windwerfer",
+      "url": "https://huggingface.co/datasets/windwerfer/neurofeed-eeg-windows",
+      "source": "huggingface",
+      "description": "Neurofeed EEG Windows Ready-to-train 2-second, 256 Hz EEG windows derived from open EEG/PSG datasets and remapped onto consumer-headset layouts: Muse (AF7, AF8, TP9, TP10) and Neurosity Crown (C3/C4-centred). Every config ships fixed subject-level splits, per-recording manifests…",
+      "tags": [
+        "eeg",
+        "electroencephalography",
+        "muse",
+        "neurosity-crown",
+        "bci",
+        "time-series",
+        "sleep",
+        "vigilance"
+      ],
+      "license": "other",
+      "downloads": 170,
+      "likes": 0,
+      "updatedAt": "2026-10-06T13:21:45.000Z",
       "modality": [
         "EEG"
       ]
@@ -528,34 +578,9 @@
         "afl-3.0"
       ],
       "license": "afl-3.0",
-      "downloads": 133,
+      "downloads": 145,
       "likes": 1,
       "updatedAt": "2026-10-06T11:14:20.000Z",
-      "modality": [
-        "EEG"
-      ]
-    },
-    {
-      "id": "hf:windwerfer/neurofeed-eeg-windows",
-      "name": "neurofeed-eeg-windows",
-      "owner": "windwerfer",
-      "url": "https://huggingface.co/datasets/windwerfer/neurofeed-eeg-windows",
-      "source": "huggingface",
-      "description": "Neurofeed EEG Windows Derived 2-second @ 256 Hz EEG windows for training and evaluating Muse- and Crown-oriented models. This is not raw clinical EEG, and it is not a mirror of OpenNeuro or PhysioNet recordings. Repo: windwerfer/neurofeed-eeg-windows What you get Each config fol…",
-      "tags": [
-        "eeg",
-        "muse",
-        "neurosity-crown",
-        "bci",
-        "time-series",
-        "sleep",
-        "attention",
-        "engagement"
-      ],
-      "license": "other",
-      "downloads": 154,
-      "likes": 0,
-      "updatedAt": "2026-09-23T12:41:59.000Z",
       "modality": [
         "EEG"
       ]
@@ -575,7 +600,7 @@
         "neurobolt"
       ],
       "license": "cc0-1.0",
-      "downloads": 312,
+      "downloads": 308,
       "likes": 0,
       "updatedAt": "2026-08-22T20:32:43.000Z",
       "modality": [
@@ -607,26 +632,26 @@
       ]
     },
     {
-      "id": "hf:raei/Brunner-2008-BCICompetition2008GrazDataSetA",
-      "name": "Brunner-2008-BCICompetition2008GrazDataSetA",
-      "owner": "raei",
-      "url": "https://huggingface.co/datasets/raei/Brunner-2008-BCICompetition2008GrazDataSetA",
+      "id": "hf:Abdulkader/eeg-foundation-leaderboard",
+      "name": "eeg-foundation-leaderboard",
+      "owner": "Abdulkader",
+      "url": "https://huggingface.co/datasets/Abdulkader/eeg-foundation-leaderboard",
       "source": "huggingface",
-      "description": "BCI Competition IV Dataset 2a — Graz data set A This is an unofficial mirror of the dataset described by C. Brunner, R. Leeb, G. R. Müller-Putz, A. Schlögl, and G. Pfurtscheller (2008) at Graz University of Technology. Originally released as BCI Competition IV Dataset 2a (BCICIV…",
+      "description": "EEG Foundation Model Leaderboard — data Backing data for the EEG Foundation Model Leaderboard Space. Files models.json — one record per model: architecture, pretraining objective, parameter count, pretraining corpus scale, paper/code/weights links. results.json — one record per…",
       "tags": [
-        "cc-by-nd-4.0",
-        "document",
-        "neuroscience",
-        "electroencephalography",
-        "brain-computer-interface",
-        "motor-imagery",
-        "matlab",
-        "bci-competition"
+        "apache-2.0",
+        "json",
+        "tabular",
+        "pandas",
+        "arxiv:2405.18765",
+        "eeg",
+        "leaderboard",
+        "foundation-models"
       ],
-      "license": "cc-by-nd-4.0",
-      "downloads": 112,
+      "license": "apache-2.0",
+      "downloads": 55,
       "likes": 0,
-      "updatedAt": "2026-09-24T11:39:18.000Z",
+      "updatedAt": "2026-10-06T09:34:23.000Z",
       "modality": [
         "EEG"
       ]
@@ -649,34 +674,9 @@
         "doi:10.57967/hf/8132"
       ],
       "license": "cc-by-4.0",
-      "downloads": 899,
+      "downloads": 901,
       "likes": 0,
       "updatedAt": "2026-04-28T14:57:22.000Z",
-      "modality": [
-        "EEG"
-      ]
-    },
-    {
-      "id": "hf:shahpalash10/BCI-Neurofeedback-Desktop",
-      "name": "BCI-Neurofeedback-Desktop",
-      "owner": "shahpalash10",
-      "url": "https://huggingface.co/datasets/shahpalash10/BCI-Neurofeedback-Desktop",
-      "source": "huggingface",
-      "description": "🧠 BCI Neurofeedback Desktop Application Suite Standalone, zero-dependency desktop application suite for real-time EEG neurofeedback training, cognitive psychometrics, and BCI-driven gaming. 📥 Direct Public Downloads (Latest Release v1.1.2) Platform Architecture Installer Direc…",
-      "tags": [
-        "robotics",
-        "mit",
-        "bci",
-        "eeg",
-        "neurofeedback",
-        "neuroscience",
-        "brain-computer-interface",
-        "desktop-application"
-      ],
-      "license": "mit",
-      "downloads": 167,
-      "likes": 0,
-      "updatedAt": "2026-09-09T17:57:01.000Z",
       "modality": [
         "EEG"
       ]
@@ -709,17 +709,33 @@
       ]
     },
     {
-      "id": "zenodo:22856873",
-      "name": "EEG Biofeedback and Multimodal Neuro-Physiological Monitoring in Elite Male Judokas: Neural Efficiency, Peak Power Preservation, and Strength Recovery under Hypoxia and Normoxia",
-      "owner": "Maszczyk, Adam",
-      "url": "https://doi.org/10.5281/zenodo.22856873",
+      "id": "zenodo:23192855",
+      "name": "Raw EEG data of Schoknecht and Vasishth (2026)",
+      "owner": "Schoknecht, Pia",
+      "url": "https://doi.org/10.5281/zenodo.23192855",
       "source": "zenodo",
-      "description": "This record documents a pilot randomized controlled trial investigating whether combining real-time EEG neurofeedback with normobaric hypoxia can improve post-exercise neuromuscular recovery in elite male judokas from the Polish National Judo Senior Team. &nbsp; Eight internatio…",
+      "description": "This repository contains the EEG data of the experiment using questions. The data of the experiment using judgments is available under https://zenodo.org/records/17178030.",
       "tags": [],
       "license": "cc-by-4.0",
-      "downloads": 153,
+      "downloads": 5,
       "likes": null,
-      "updatedAt": "2026-09-20T00:00:00.000Z",
+      "updatedAt": "2026-10-06T00:00:00.000Z",
+      "modality": [
+        "EEG"
+      ]
+    },
+    {
+      "id": "zenodo:23194286",
+      "name": "MIND v1 verification record: frozen predictions, selection records and scoring code",
+      "owner": "Dammu, Hitesh",
+      "url": "https://doi.org/10.5281/zenodo.23194286",
+      "source": "zenodo",
+      "description": "Frozen prediction files, selection records and scoring code for an internal evaluation of EEG research models (MIND v1). Files are available to reviewers on request.",
+      "tags": [],
+      "license": "cc-by-4.0",
+      "downloads": 3,
+      "likes": null,
+      "updatedAt": "2026-10-06T00:00:00.000Z",
       "modality": [
         "EEG"
       ]
@@ -790,7 +806,7 @@
         "Multisensory processing"
       ],
       "license": "cc-by-4.0",
-      "downloads": 10,
+      "downloads": 12,
       "likes": null,
       "updatedAt": "2026-09-28T00:00:00.000Z",
       "modality": [
@@ -894,22 +910,6 @@
       ]
     },
     {
-      "id": "zenodo:22990207",
-      "name": "BOLALARDA EPILEPSIYASINING KLINIK VA ELEKTROENSEFALOGRAFIK XUSUSIYATLARI",
-      "owner": "Islomova Nigoraxon Shuxrat qizi",
-      "url": "https://doi.org/10.5281/zenodo.22990207",
-      "source": "zenodo",
-      "description": "O&lsquo;zbekistonning Farg&lsquo;ona shahrida o&lsquo;tkazilgan ushbu holat-nazorat tadqiqotida epilepsiya bilan og&lsquo;rigan 36 nafar bola va 32 nafar sog&lsquo;lom nazorat guruhidagi bolalarning klinik, perinatal, oilaviy hamda elektroensefalografik (EEG) xususiyatlari taqqo…",
-      "tags": [],
-      "license": "cc-by-4.0",
-      "downloads": 1,
-      "likes": null,
-      "updatedAt": "2026-09-27T00:00:00.000Z",
-      "modality": [
-        "EEG"
-      ]
-    },
-    {
       "id": "github:eegdash/EEGDash",
       "name": "EEGDash",
       "owner": "eegdash",
@@ -929,7 +929,7 @@
       "license": "BSD-3-Clause",
       "downloads": null,
       "likes": 89,
-      "updatedAt": "2026-10-06T11:03:36.000Z",
+      "updatedAt": "2026-10-06T11:56:50.000Z",
       "modality": [
         "EEG",
         "MEG",
@@ -981,8 +981,8 @@
       ],
       "license": "NOASSERTION",
       "downloads": null,
-      "likes": 6,
-      "updatedAt": "2026-10-06T09:40:52.000Z",
+      "likes": 7,
+      "updatedAt": "2026-10-07T10:57:44.000Z",
       "modality": [
         "EEG"
       ]
